@@ -10,10 +10,10 @@
 		<Version>1.0</Version>
 		<IsTrimmable>true</IsTrimmable>
 		<Authors>Kyle Herzog</Authors>
-		<PackageTags>HTML Tags Attributes Constants</PackageTags>
-		<Description>Provides HTML constant definitions including tags and attributes.</Description>
-		<PackageProjectUrl>https://github.com/kyleherzog/HtmlConstants</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/kyleherzog/HtmlConstants</RepositoryUrl>
+		<PackageTags>HTML Tags Attributes Constants Identifiers</PackageTags>
+		<Description>Provides HTML constant identifiers including tags and attributes.</Description>
+		<PackageProjectUrl>https://github.com/kyleherzog/HtmlValues</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/kyleherzog/HtmlValues</RepositoryUrl>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>

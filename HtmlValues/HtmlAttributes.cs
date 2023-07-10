@@ -1,7 +1,4 @@
 ﻿using HtmlValues.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace HtmlValues;
 
@@ -450,113 +447,539 @@ public static class HtmlAttributes
     /// </summary>
     public const string OnCanPlay = "oncanplay";
 
-
+    /// <summary>
+    /// Gets the <c>oncanplaythrough</c> attribute name.
+    /// </summary>
     public const string OnCanPlayThrough = "oncanplaythrough";
+
+    /// <summary>
+    /// Gets the <c>onchange</c> attribute name.
+    /// </summary>
     public const string OnChange = "onchange";
+
+    /// <summary>
+    /// Gets the <c>onclick</c> attribute name.
+    /// </summary>
     public const string OnClick = "onclick";
+
+    /// <summary>
+    /// Gets the <c>oncontextmenu</c> attribute name.
+    /// </summary>
     public const string OnContextMenu = "oncontextmenu";
+
+    /// <summary>
+    /// Gets the <c>oncopy</c> attribute name.
+    /// </summary>
     public const string OnCopy = "oncopy";
+
+    /// <summary>
+    /// Gets the <c>oncuechange</c> attribute name.
+    /// </summary>
     public const string OnCueChange = "oncuechange";
+
+    /// <summary>
+    /// Gets the <c>oncut</c> attribute name.
+    /// </summary>
     public const string OnCut = "oncut";
+
+    /// <summary>
+    /// Gets the <c>ondblclick</c> attribute name.
+    /// </summary>
     public const string OnDblClick = "ondblclick";
+
+    /// <summary>
+    /// Gets the <c>ondrag</c> attribute name.
+    /// </summary>
     public const string OnDrag = "ondrag";
+
+    /// <summary>
+    /// Gets the <c>ondragend</c> attribute name.
+    /// </summary>
     public const string OnDragEnd = "ondragend";
+
+    /// <summary>
+    /// Gets the <c>ondragenter</c> attribute name.
+    /// </summary>
     public const string OnDragEnter = "ondragenter";
+
+    /// <summary>
+    /// Gets the <c>ondragleave</c> attribute name.
+    /// </summary>
     public const string OnDragLeave = "ondragleave";
+
+    /// <summary>
+    /// Gets the <c>ondragover</c> attribute name.
+    /// </summary>
     public const string OnDragOver = "ondragover";
+
+    /// <summary>
+    /// Gets the <c>ondragstart</c> attribute name.
+    /// </summary>
     public const string OnDragStart = "ondragstart";
+
+    /// <summary>
+    /// Gets the <c>ondrop</c> attribute name.
+    /// </summary>
     public const string OnDrop = "ondrop";
+
+    /// <summary>
+    /// Gets the <c>ondurationchange</c> attribute name.
+    /// </summary>
     public const string OnDurationChange = "ondurationchange";
+
+    /// <summary>
+    /// Gets the <c>onemptied</c> attribute name.
+    /// </summary>
     public const string OnEmptied = "onemptied";
+
+    /// <summary>
+    /// Gets the <c>onended</c> attribute name.
+    /// </summary>
     public const string OnEnded = "onended";
+
+    /// <summary>
+    /// Gets the <c>onerror</c> attribute name.
+    /// </summary>
     public const string OnError = "onerror";
+
+    /// <summary>
+    /// Gets the <c>onfocus</c> attribute name.
+    /// </summary>
     public const string OnFocus = "onfocus";
+
+    /// <summary>
+    /// Gets the <c>onhashchange</c> attribute name.
+    /// </summary>
     public const string OnHashChange = "onhashchange";
+
+    /// <summary>
+    /// Gets the <c>oninput</c> attribute name.
+    /// </summary>
     public const string OnInput = "oninput";
+
+    /// <summary>
+    /// Gets the <c>oninvalid</c> attribute name.
+    /// </summary>
     public const string OnInvalid = "oninvalid";
+
+    /// <summary>
+    /// Gets the <c>onkeydown</c> attribute name.
+    /// </summary>
     public const string OnKeyDown = "onkeydown";
+
+    /// <summary>
+    /// Gets the <c>onkeypress</c> attribute name.
+    /// </summary>
     public const string OnKeyPress = "onkeypress";
+
+    /// <summary>
+    /// Gets the <c>onkeyup</c> attribute name.
+    /// </summary>
     public const string OnKeyUp = "onkeyup";
+
+    /// <summary>
+    /// Gets the <c>onlanguagechange</c> attribute name.
+    /// </summary>
     public const string OnLanguageChange = "onlanguagechange";
+
+    /// <summary>
+    /// Gets the <c>onload</c> attribute name.
+    /// </summary>
     public const string OnLoad = "onload";
+
+    /// <summary>
+    /// Gets the <c>onloadeddata</c> attribute name.
+    /// </summary>
     public const string OnLoadedData = "onloadeddata";
+
+    /// <summary>
+    /// Gets the <c>onloadedmetadata</c> attribute name.
+    /// </summary>
     public const string OnLoadedMetaData = "onloadedmetadata";
+
+    /// <summary>
+    /// Gets the <c>onloadstart</c> attribute name.
+    /// </summary>
     public const string OnLoadStart = "onloadstart";
+
+    /// <summary>
+    /// Gets the <c>onmessage</c> attribute name.
+    /// </summary>
     public const string OnMessage = "onmessage";
+
+    /// <summary>
+    /// Gets the <c>onmousedown</c> attribute name.
+    /// </summary>
     public const string OnMouseDown = "onmousedown";
+
+    /// <summary>
+    /// Gets the <c>onmousemove</c> attribute name.
+    /// </summary>
     public const string OnMouseMove = "onmousemove";
+
+    /// <summary>
+    /// Gets the <c>onmouseout</c> attribute name.
+    /// </summary>
     public const string OnMouseOut = "onmouseout";
+
+    /// <summary>
+    /// Gets the <c>onmouseover</c> attribute name.
+    /// </summary>
     public const string OnMouseOver = "onmouseover";
+
+    /// <summary>
+    /// Gets the <c>onmouseup</c> attribute name.
+    /// </summary>
     public const string OnMouseUp = "onmouseup";
+
+    /// <summary>
+    /// Gets the <c>onmousewheel</c> attribute name.
+    /// </summary>
     public const string OnMouseWheel = "onmousewheel";
+
+    /// <summary>
+    /// Gets the <c>onoffline</c> attribute name.
+    /// </summary>
     public const string OnOffline = "onoffline";
+
+    /// <summary>
+    /// Gets the <c>ononline</c> attribute name.
+    /// </summary>
     public const string OnOnline = "ononline";
+
+    /// <summary>
+    /// Gets the <c>onpagehide</c> attribute name.
+    /// </summary>
     public const string OnPageHide = "onpagehide";
+
+    /// <summary>
+    /// Gets the <c>onpageshow</c> attribute name.
+    /// </summary>
     public const string OnPageShow = "onpageshow";
+
+    /// <summary>
+    /// Gets the <c>onpaste</c> attribute name.
+    /// </summary>
     public const string OnPaste = "onpaste";
+
+    /// <summary>
+    /// Gets the <c>onpause</c> attribute name.
+    /// </summary>
     public const string OnPause = "onpause";
+
+    /// <summary>
+    /// Gets the <c>onplay</c> attribute name.
+    /// </summary>
     public const string OnPlay = "onplay";
+
+    /// <summary>
+    /// Gets the <c>onplaying</c> attribute name.
+    /// </summary>
     public const string OnPlaying = "onplaying";
+
+    /// <summary>
+    /// Gets the <c>onpopstate</c> attribute name.
+    /// </summary>
     public const string OnPopState = "onpopstate";
+
+    /// <summary>
+    /// Gets the <c>onprogress</c> attribute name.
+    /// </summary>
     public const string OnProgress = "onprogress";
+
+    /// <summary>
+    /// Gets the <c>onratechange</c> attribute name.
+    /// </summary>
     public const string OnRateChange = "onratechange";
+
+    /// <summary>
+    /// Gets the <c>onrejectionhandled</c> attribute name.
+    /// </summary>
     public const string OnRejectionHandled = "onrejectionhandled";
+
+    /// <summary>
+    /// Gets the <c>onreset</c> attribute name.
+    /// </summary>
     public const string OnReset = "onreset";
+
+    /// <summary>
+    /// Gets the <c>onresize</c> attribute name.
+    /// </summary>
     public const string OnResize = "onresize";
+
+    /// <summary>
+    /// Gets the <c>onscroll</c> attribute name.
+    /// </summary>
     public const string OnScroll = "onscroll";
+
+    /// <summary>
+    /// Gets the <c>onsearch</c> attribute name.
+    /// </summary>
     public const string OnSearch = "onsearch";
+
+    /// <summary>
+    /// Gets the <c>onseeked</c> attribute name.
+    /// </summary>
     public const string OnSeeked = "onseeked";
+
+    /// <summary>
+    /// Gets the <c>onseeking</c> attribute name.
+    /// </summary>
     public const string OnSeeking = "onseeking";
+
+    /// <summary>
+    /// Gets the <c>onselect</c> attribute name.
+    /// </summary>
     public const string OnSelect = "onselect";
+
+    /// <summary>
+    /// Gets the <c>onstalled</c> attribute name.
+    /// </summary>
     public const string OnStalled = "onstalled";
+
+    /// <summary>
+    /// Gets the <c>onstorage</c> attribute name.
+    /// </summary>
     public const string OnStorage = "onstorage";
+
+    /// <summary>
+    /// Gets the <c>onsubmit</c> attribute name.
+    /// </summary>
     public const string OnSubmit = "onsubmit";
+
+    /// <summary>
+    /// Gets the <c>onsuspend</c> attribute name.
+    /// </summary>
     public const string OnSuspend = "onsuspend";
+
+    /// <summary>
+    /// Gets the <c>ontimeupdate</c> attribute name.
+    /// </summary>
     public const string OnTimeUpdate = "ontimeupdate";
+
+    /// <summary>
+    /// Gets the <c>ontoggle</c> attribute name.
+    /// </summary>
     public const string OnToggle = "ontoggle";
+
+    /// <summary>
+    /// Gets the <c>onunhandledrejection</c> attribute name.
+    /// </summary>
     public const string OnUnhandledRejection = "onunhandledrejection";
+
+    /// <summary>
+    /// Gets the <c>onunload</c> attribute name.
+    /// </summary>
     public const string OnUnload = "onunload";
+
+    /// <summary>
+    /// Gets the <c>onvolumechange</c> attribute name.
+    /// </summary>
     public const string OnVolumeChange = "onvolumechange";
+
+    /// <summary>
+    /// Gets the <c>onwaiting</c> attribute name.
+    /// </summary>
     public const string OnWaiting = "onwaiting";
+
+    /// <summary>
+    /// Gets the <c>onwheel</c> attribute name.
+    /// </summary>
     public const string OnWheel = "onwheel";
+
+    /// <summary>
+    /// Gets the <c>open</c> attribute name.
+    /// </summary>
     public const string Open = "open";
+
+    /// <summary>
+    /// Gets the <c>optimum</c> attribute name.
+    /// </summary>
     public const string Optimum = "optimum";
+
+    /// <summary>
+    /// Gets the <c>part</c> attribute name.
+    /// </summary>
     public const string Part = "part";
+
+    /// <summary>
+    /// Gets the <c>pattern</c> attribute name.
+    /// </summary>
     public const string Pattern = "pattern";
+
+    /// <summary>
+    /// Gets the <c>ping</c> attribute name.
+    /// </summary>
     public const string Ping = "ping";
+
+    /// <summary>
+    /// Gets the <c>placeholder</c> attribute name.
+    /// </summary>
     public const string Placeholder = "placeholder";
+
+    /// <summary>
+    /// Gets the <c>poster</c> attribute name.
+    /// </summary>
     public const string Poster = "poster";
+
+    /// <summary>
+    /// Gets the <c>preload</c> attribute name.
+    /// </summary>
     public const string Preload = "preload";
+
+    /// <summary>
+    /// Gets the <c>pubdate</c> attribute name.
+    /// </summary>
     public const string PubDate = "pubdate";
+
+    /// <summary>
+    /// Gets the <c>readonly</c> attribute name.
+    /// </summary>
     public const string ReadOnly = "readonly";
+
+    /// <summary>
+    /// Gets the <c>referrerpolicy</c> attribute name.
+    /// </summary>
     public const string ReferrerPolicy = "referrerpolicy";
+
+    /// <summary>
+    /// Gets the <c>rel</c> attribute name.
+    /// </summary>
     public const string Rel = "rel";
+
+    /// <summary>
+    /// Gets the <c>required</c> attribute name.
+    /// </summary>
     public const string Required = "required";
+
+    /// <summary>
+    /// Gets the <c>reversed</c> attribute name.
+    /// </summary>
     public const string Reversed = "reversed";
+
+    /// <summary>
+    /// Gets the <c>role</c> attribute name.
+    /// </summary>
     public const string Role = "role";
+
+    /// <summary>
+    /// Gets the <c>rows</c> attribute name.
+    /// </summary>
     public const string Rows = "rows";
+
+    /// <summary>
+    /// Gets the <c>rowspan</c> attribute name.
+    /// </summary>
     public const string RowSpan = "rowspan";
+
+    /// <summary>
+    /// Gets the <c>sandbox</c> attribute name.
+    /// </summary>
     public const string Sandbox = "sandbox";
+
+    /// <summary>
+    /// Gets the <c>scope</c> attribute name.
+    /// </summary>
     public const string Scope = "scope";
+
+    /// <summary>
+    /// Gets the <c>selected</c> attribute name.
+    /// </summary>
     public const string Selected = "selected";
+
+    /// <summary>
+    /// Gets the <c>shape</c> attribute name.
+    /// </summary>
     public const string Shape = "shape";
+
+    /// <summary>
+    /// Gets the <c>size</c> attribute name.
+    /// </summary>
     public const string Size = "size";
+
+    /// <summary>
+    /// Gets the <c>sizes</c> attribute name.
+    /// </summary>
     public const string Sizes = "sizes";
+
+    /// <summary>
+    /// Gets the <c>slot</c> attribute name.
+    /// </summary>
     public const string Slot = "slot";
+
+    /// <summary>
+    /// Gets the <c>span</c> attribute name.
+    /// </summary>
     public const string Span = "span";
+
+    /// <summary>
+    /// Gets the <c>spellcheck</c> attribute name.
+    /// </summary>
     public const string SpellCheck = "spellcheck";
+
+    /// <summary>
+    /// Gets the <c>src</c> attribute name.
+    /// </summary>
     public const string Src = "src";
+
+    /// <summary>
+    /// Gets the <c>srcdoc</c> attribute name.
+    /// </summary>
     public const string SrcDoc = "srcdoc";
+
+    /// <summary>
+    /// Gets the <c>srclang</c> attribute name.
+    /// </summary>
     public const string SrcLang = "srclang";
+
+    /// <summary>
+    /// Gets the <c>srcset</c> attribute name.
+    /// </summary>
     public const string SrcSet = "srcset";
+
+    /// <summary>
+    /// Gets the <c>start</c> attribute name.
+    /// </summary>
     public const string Start = "start";
+
+    /// <summary>
+    /// Gets the <c>step</c> attribute name.
+    /// </summary>
     public const string Step = "step";
+
+    /// <summary>
+    /// Gets the <c>style</c> attribute name.
+    /// </summary>
     public const string Style = "style";
+
+    /// <summary>
+    /// Gets the <c>tabindex</c> attribute name.
+    /// </summary>
     public const string TabIndex = "tabindex";
+
+    /// <summary>
+    /// Gets the <c>target</c> attribute name.
+    /// </summary>
     public const string Target = "target";
+
+    /// <summary>
+    /// Gets the <c>title</c> attribute name.
+    /// </summary>
     public const string Title = "title";
+
+    /// <summary>
+    /// Gets the <c>translate</c> attribute name.
+    /// </summary>
     public const string Translate = "translate";
+
+    /// <summary>
+    /// Gets the <c>type</c> attribute name.
+    /// </summary>
     public const string Type = "type";
+
+    /// <summary>
+    /// Gets the <c>typemustmatch</c> attribute name.
+    /// </summary>
     public const string TypeMustMatch = "typemustmatch";
 
     /// <summary>
