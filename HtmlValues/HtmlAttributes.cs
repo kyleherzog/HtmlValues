@@ -78,6 +78,11 @@ public static class HtmlAttributes
     public const string AutoPlay = "autoplay";
 
     /// <summary>
+    /// Gets the <c>capture</c> attribute name.
+    /// </summary>
+    public const string Capture = "capture";
+
+    /// <summary>
     /// Gets the <c>charset</c> attribute name.
     /// </summary>
     public const string CharSet = "charset";

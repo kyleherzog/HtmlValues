@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HtmlValues.Attributes;
+﻿namespace HtmlValues.Attributes;
 
 /// <summary>
 /// Provides access to the attributes of the input element.
@@ -28,6 +24,11 @@ public class InputAttributes : GlobalAttributes
     /// Gets the name of the autofocus attribute.
     /// </summary>
     public string AutoFocus => HtmlAttributes.AutoFocus;
+
+    /// <summary>
+    /// Gets the name of the <c>capture</c> attribute.
+    /// </summary>
+    public string Capture => HtmlAttributes.Capture;
 
     /// <summary>
     /// Gets the name of the checked attribute.
@@ -158,7 +159,7 @@ public class InputAttributes : GlobalAttributes
     /// Gets the name of the value attribute.
     /// </summary>
     public string Value => HtmlAttributes.Value;
-    
+
     /// <summary>
     /// Gets the name of the width attribute.
     /// </summary>
