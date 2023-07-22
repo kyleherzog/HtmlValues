@@ -8,6 +8,16 @@ namespace HtmlValues;
 public static class HtmlAttributeValues
 {
     /// <summary>
+    /// Gets the predefined <c>alert</c> attribute value.
+    /// </summary>
+    public const string Alert = "alert";
+
+    /// <summary>
+    /// Gets the predefined <c>alertdialog</c> attribute value.
+    /// </summary>
+    public const string AlertDialog = "alertdialog";
+
+    /// <summary>
     /// Gets the predefined <c>alternate</c> attribute value.
     /// </summary>
     public const string Alternate = "alternate";
@@ -18,9 +28,34 @@ public static class HtmlAttributeValues
     public const string Anonymous = "anonymous";
 
     /// <summary>
+    /// Gets the predefined <c>application</c> attribute value.
+    /// </summary>
+    public const string Application = "application";
+
+    /// <summary>
     /// Gets the predefined <c>application/x-www-form-urlencoded</c> attribute value.
     /// </summary>
     public const string ApplicationXWwwFormUrlencoded = "application/x-www-form-urlencoded";
+
+    /// <summary>
+    /// Gets the predefined <c>article</c> attribute value.
+    /// </summary>
+    public const string Article = "article";
+
+    /// <summary>
+    /// Gets the predefined <c>associationlist</c> attribute value.
+    /// </summary>
+    public const string AssociationList = "associationlist";
+
+    /// <summary>
+    /// Gets the predefined <c>associationlistitemkey</c> attribute value.
+    /// </summary>
+    public const string AssociationListItemKey = "associationlistitemkey";
+
+    /// <summary>
+    /// Gets the predefined <c>associationlistitemvalue</c> attribute value.
+    /// </summary>
+    public const string AssociationListItemValue = "associationlistitemvalue";
 
     /// <summary>
     /// Gets the predefined <c>author</c> attribute value.
@@ -33,9 +68,19 @@ public static class HtmlAttributeValues
     public const string Auto = "auto";
 
     /// <summary>
+    /// Gets the predefined <c>banner</c> attribute value.
+    /// </summary>
+    public const string Banner = "banner";
+
+    /// <summary>
     /// Gets the predefined <c>_blank</c> attribute value.
     /// </summary>
     public const string Blank = "_blank";
+
+    /// <summary>
+    /// Gets the predefined <c>blockquote</c> attribute value.
+    /// </summary>
+    public const string BlockQuote = "blockquote";
 
     /// <summary>
     /// Gets the predefined <c>bookmark</c> attribute value.
@@ -53,9 +98,19 @@ public static class HtmlAttributeValues
     public const string Canonical = "canonical";
 
     /// <summary>
+    /// Gets the predefined <c>caption</c> attribute value.
+    /// </summary>
+    public const string Caption = "caption";
+
+    /// <summary>
     /// Gets the predefined <c>captions</c> attribute value.
     /// </summary>
     public const string Captions = "captions";
+
+    /// <summary>
+    /// Gets the predefined <c>cell</c> attribute value.
+    /// </summary>
+    public const string Cell = "cell";
 
     /// <summary>
     /// Gets the predefined <c>chapters</c> attribute value.
@@ -73,6 +128,11 @@ public static class HtmlAttributeValues
     public const string Circle = "circle";
 
     /// <summary>
+    /// Gets the predefined <c>code</c> attribute value.
+    /// </summary>
+    public const string Code = "code";
+
+    /// <summary>
     /// Gets the predefined <c>col</c> attribute value.
     /// </summary>
     public const string Col = "col";
@@ -86,6 +146,36 @@ public static class HtmlAttributeValues
     /// Gets the predefined <c>color</c> attribute value.
     /// </summary>
     public const string Color = "color";
+
+    /// <summary>
+    /// Gets the predefined <c>columnheader</c> attribute value.
+    /// </summary>
+    public const string ColumnHeader = "columnheader";
+
+    /// <summary>
+    /// Gets the predefined <c>combobox</c> attribute value.
+    /// </summary>
+    public const string ComboBox = "combobox";
+
+    /// <summary>
+    /// Gets the predefined <c>command</c> attribute value.
+    /// </summary>
+    public const string Command = "command";
+
+    /// <summary>
+    /// Gets the predefined <c>comment</c> attribute value.
+    /// </summary>
+    public const string Comment = "comment";
+
+    /// <summary>
+    /// Gets the predefined <c>complementary</c> attribute value.
+    /// </summary>
+    public const string Complementary = "complementary";
+
+    /// <summary>
+    /// Gets the predefined <c>contentinfo</c> attribute value.
+    /// </summary>
+    public const string ContentInfo = "contentinfo";
 
     /// <summary>
     /// Gets the predefined <c>date</c> attribute value.
@@ -108,6 +198,16 @@ public static class HtmlAttributeValues
     public const string Default = "default";
 
     /// <summary>
+    /// Gets the predefined <c>definition</c> attribute value.
+    /// </summary>
+    public const string Definition = "definition";
+
+    /// <summary>
+    /// Gets the predefined <c>deletion</c> attribute value.
+    /// </summary>
+    public const string Deletion = "deletion";
+
+    /// <summary>
     /// Gets the predefined <c>descriptions</c> attribute value.
     /// </summary>
     public const string Descriptions = "descriptions";
@@ -123,9 +223,29 @@ public static class HtmlAttributeValues
     public const string DnsPrefetch = "dns-prefetch";
 
     /// <summary>
+    /// Gets the predefined <c>document</c> attribute value.
+    /// </summary>
+    public const string Document = "document";
+
+    /// <summary>
+    /// Gets the predefined <c>done</c> attribute value.
+    /// </summary>
+    public const string Done = "done";
+
+    /// <summary>
     /// Gets the predefined <c>email</c> attribute value.
     /// </summary>
     public const string Email = "email";
+
+    /// <summary>
+    /// Gets the predefined <c>emphasis</c> attribute value.
+    /// </summary>
+    public const string Emphasis = "emphasis";
+
+    /// <summary>
+    /// Gets the predefined <c>enter</c> attribute value.
+    /// </summary>
+    public const string Enter = "enter";
 
     /// <summary>
     /// Gets the predefined <c>environment</c> attribute value.
@@ -138,9 +258,29 @@ public static class HtmlAttributeValues
     public const string External = "external";
 
     /// <summary>
+    /// Gets the predefined <c>feed</c> attribute value.
+    /// </summary>
+    public const string Feed = "feed";
+
+    /// <summary>
+    /// Gets the predefined <c>figure</c> attribute value.
+    /// </summary>
+    public const string Figure = "figure";
+
+    /// <summary>
     /// Gets the predefined <c>file</c> attribute value.
     /// </summary>
     public const string File = "file";
+
+    /// <summary>
+    /// Gets the predefined <c>form</c> attribute value.
+    /// </summary>
+    public const string Form = "form";
+
+    /// <summary>
+    /// Gets the predefined <c>generic</c> attribute value.
+    /// </summary>
+    public const string Generic = "generic";
 
     /// <summary>
     /// Gets the predefined <c>get</c> attribute value.
@@ -148,9 +288,34 @@ public static class HtmlAttributeValues
     public const string Get = "get";
 
     /// <summary>
+    /// Gets the predefined <c>go</c> attribute value.
+    /// </summary>
+    public const string Go = "go";
+
+    /// <summary>
+    /// Gets the predefined <c>grid</c> attribute value.
+    /// </summary>
+    public const string Grid = "grid";
+
+    /// <summary>
+    /// Gets the predefined <c>gridcell</c> attribute value.
+    /// </summary>
+    public const string GridCell = "gridcell";
+
+    /// <summary>
+    /// Gets the predefined <c>group</c> attribute value.
+    /// </summary>
+    public const string Group = "group";
+
+    /// <summary>
     /// Gets the predefined <c>hard</c> attribute value.
     /// </summary>
     public const string Hard = "hard";
+
+    /// <summary>
+    /// Gets the predefined <c>heading</c> attribute value.
+    /// </summary>
+    public const string Heading = "heading";
 
     /// <summary>
     /// Gets the predefined <c>help</c> attribute value.
@@ -173,9 +338,44 @@ public static class HtmlAttributeValues
     public const string Image = "image";
 
     /// <summary>
+    /// Gets the predefined <c>img</c> attribute value.
+    /// </summary>
+    public const string Img = "img";
+
+    /// <summary>
+    /// Gets the predefined <c>insertion</c> attribute value.
+    /// </summary>
+    public const string Insertion = "insertion";
+
+    /// <summary>
     /// Gets the predefined <c>license</c> attribute value.
     /// </summary>
     public const string License = "license";
+
+    /// <summary>
+    /// Gets the predefined <c>link</c> attribute value.
+    /// </summary>
+    public const string Link = "link";
+
+    /// <summary>
+    /// Gets the predefined <c>list</c> attribute value.
+    /// </summary>
+    public const string List = "list";
+
+    /// <summary>
+    /// Gets the predefined <c>listbox</c> attribute value.
+    /// </summary>
+    public const string ListBox = "listbox";
+
+    /// <summary>
+    /// Gets the predefined <c>listitem</c> attribute value.
+    /// </summary>
+    public const string ListItem = "listitem";
+
+    /// <summary>
+    /// Gets the predefined <c>log</c> attribute value.
+    /// </summary>
+    public const string Log = "log";
 
     /// <summary>
     /// Gets the predefined <c>ltr</c> attribute value which indicates left-to-right text direction.
@@ -183,9 +383,59 @@ public static class HtmlAttributeValues
     public const string Ltr = "ltr";
 
     /// <summary>
+    /// Gets the predefined <c>main</c> attribute value.
+    /// </summary>
+    public const string Main = "main";
+
+    /// <summary>
+    /// Gets the predefined <c>mark</c> attribute value.
+    /// </summary>
+    public const string Mark = "mark";
+
+    /// <summary>
+    /// Gets the predefined <c>marquee</c> attribute value.
+    /// </summary>
+    public const string Marquee = "marquee";
+
+    /// <summary>
+    /// Gets the predefined <c>math</c> attribute value.
+    /// </summary>
+    public const string Math = "math";
+
+    /// <summary>
+    /// Gets the predefined <c>menu</c> attribute value.
+    /// </summary>
+    public const string Menu = "menu";
+
+    /// <summary>
+    /// Gets the predefined <c>menubar</c> attribute value.
+    /// </summary>
+    public const string MenuBar = "menubar";
+
+    /// <summary>
+    /// Gets the predefined <c>menuitem</c> attribute value.
+    /// </summary>
+    public const string MenuItem = "menuitem";
+
+    /// <summary>
+    /// Gets the predefined <c>menuitemcheckbox</c> attribute value.
+    /// </summary>
+    public const string MenuItemCheckbox = "menuitemcheckbox";
+
+    /// <summary>
+    /// Gets the predefined <c>menuitemradio</c> attribute value.
+    /// </summary>
+    public const string MenuItemRadio = "menuitemradio";
+
+    /// <summary>
     /// Gets the predefined <c>metadata</c> attribute value.
     /// </summary>
     public const string Metadata = "metadata";
+
+    /// <summary>
+    /// Gets the predefined <c>meter</c> attribute value.
+    /// </summary>
+    public const string Meter = "meter";
 
     /// <summary>
     /// Gets the predefined <c>modulepreload</c> attribute value.
@@ -203,9 +453,19 @@ public static class HtmlAttributeValues
     public const string MultipartFormData = "multipart/form-data";
 
     /// <summary>
+    /// Gets the predefined <c>navigation</c> attribute value.
+    /// </summary>
+    public const string Navigation = "navigation";
+
+    /// <summary>
     /// Gets the predefined <c>next</c> attribute value.
     /// </summary>
     public const string Next = "next";
+
+    /// <summary>
+    /// Gets the predefined <c>no</c> attribute value.
+    /// </summary>
+    public const string No = "no";
 
     /// <summary>
     /// Gets the predefined <c>nofollow</c> attribute value.
@@ -226,6 +486,11 @@ public static class HtmlAttributeValues
     /// Gets the predefined <c>noreferrer</c> attribute value.
     /// </summary>
     public const string NoReferrer = "noreferrer";
+
+    /// <summary>
+    /// Gets the predefined <c>note</c> attribute value.
+    /// </summary>
+    public const string Note = "note";
 
     /// <summary>
     /// Gets the predefined <c>number</c> attribute value.
@@ -251,6 +516,16 @@ public static class HtmlAttributeValues
     /// Gets the predefined <c>opener</c> attribute value.
     /// </summary>
     public const string Opener = "opener";
+
+    /// <summary>
+    /// Gets the predefined <c>option</c> attribute value.
+    /// </summary>
+    public const string Option = "option";
+
+    /// <summary>
+    /// Get the predefined <c>paragraph</c> attribute value.
+    /// </summary>
+    public const string Paragraph = "paragraph";
 
     /// <summary>
     /// Gets the predefined <c>_parent</c> attribute value.
@@ -293,14 +568,34 @@ public static class HtmlAttributeValues
     public const string Preload = "preload";
 
     /// <summary>
+    /// Gets the predefined <c>presentation</c> attribute value.
+    /// </summary>
+    public const string Presentation = "presentation";
+
+    /// <summary>
     /// Gets the predefined <c>prev</c> attribute value.
     /// </summary>
     public const string Prev = "prev";
 
     /// <summary>
+    /// Gets the predefined <c>next</c> attribute value.
+    /// </summary>
+    public const string Previous = "previous";
+
+    /// <summary>
+    /// Gets the predefined <c>progressbar</c> attribute value.
+    /// </summary>
+    public const string ProgressBar = "progressbar";
+
+    /// <summary>
     /// Gets the predefined <c>radio</c> attribute value.
     /// </summary>
     public const string Radio = "radio";
+
+    /// <summary>
+    /// Gets the predefined <c>radiogroup</c> attribute value.
+    /// </summary>
+    public const string RadioGroup = "radiogroup";
 
     /// <summary>
     /// Gets the predefined <c>range</c> attribute value.
@@ -311,6 +606,11 @@ public static class HtmlAttributeValues
     /// Gets the predefined <c>rect</c> attribute value.
     /// </summary>
     public const string Rect = "rect";
+
+    /// <summary>
+    /// Gets the predefined <c>region</c> attribute value.
+    /// </summary>
+    public const string Region = "region";
 
     /// <summary>
     /// Gets the predefined <c>reset</c> attribute value.
@@ -328,9 +628,19 @@ public static class HtmlAttributeValues
     public const string RowGroup = "rowgroup";
 
     /// <summary>
+    /// Gets the predefined <c>rowheader</c> attribute value.
+    /// </summary>
+    public const string RowHeader = "rowheader";
+
+    /// <summary>
     /// Gets the predefined <c>rtl</c> attribute value which indicates right-to-left text direction.
     /// </summary>
     public const string Rtl = "rtl";
+
+    /// <summary>
+    /// Gets the predefined <c>scrollbar</c> attribute value.
+    /// </summary>
+    public const string Scrollbar = "scrollbar";
 
     /// <summary>
     /// Gets the predefined <c>search</c> attribute value.
@@ -338,14 +648,49 @@ public static class HtmlAttributeValues
     public const string Search = "search";
 
     /// <summary>
+    /// Gets the predefined <c>searchbox</c> attribute value.
+    /// </summary>
+    public const string SearchBox = "searchbox";
+
+    /// <summary>
     /// Gets the predefined <c>_self</c> attribute value.
     /// </summary>
     public const string Self = "_self";
 
     /// <summary>
+    /// Gets the predefined <c>send</c> attribute value.
+    /// </summary>
+    public const string Send = "send";
+
+    /// <summary>
+    /// Gets the predefined <c>separator</c> attribute value.
+    /// </summary>
+    public const string Separator = "separator";
+
+    /// <summary>
+    /// Gets the predefined <c>slider</c> attribute value.
+    /// </summary>
+    public const string Slider = "slider";
+
+    /// <summary>
     /// Gets the predefined <c>soft</c> attribute value.
     /// </summary>
     public const string Soft = "soft";
+
+    /// <summary>
+    /// Gets the predefined <c>spinbutton</c> attribute value.
+    /// </summary>
+    public const string SpinButton = "spinbutton";
+
+    /// <summary>
+    /// Gets the predefined <c>status</c> attribute value.
+    /// </summary>
+    public const string Status = "status";
+
+    /// <summary>
+    /// Gets the predefined <c>strong</c> attribute value.
+    /// </summary>
+    public const string Strong = "strong";
 
     /// <summary>
     /// Gets the predefined <c>stylesheet</c> attribute value.
@@ -358,9 +703,49 @@ public static class HtmlAttributeValues
     public const string Submit = "submit";
 
     /// <summary>
+    /// Gets the predefined <c>subscript</c> attribute value.
+    /// </summary>
+    public const string Subscript = "subscript";
+
+    /// <summary>
     /// Gets the predefined <c>subtitles</c> attribute value.
     /// </summary>
     public const string Subtitles = "subtitles";
+
+    /// <summary>
+    /// Gets the predefined <c>suggestion</c> attribute value.
+    /// </summary>
+    public const string Suggestion = "suggestion";
+
+    /// <summary>
+    /// Gets the predefined <c>superscript</c> attribute value.
+    /// </summary>
+    public const string Superscript = "superscript";
+
+    /// <summary>
+    /// Gets the predefined <c>switch</c> attribute value.
+    /// </summary>
+    public const string Switch = "switch";
+
+    /// <summary>
+    /// Gets the predefined <c>tab</c> attribute value.
+    /// </summary>
+    public const string Tab = "tab";
+
+    /// <summary>
+    /// Gets the predefined <c>table</c> attribute value.
+    /// </summary>
+    public const string Table = "table";
+
+    /// <summary>
+    /// Gets the predefined <c>tablist</c> attribute value.
+    /// </summary>
+    public const string TabList = "tablist";
+
+    /// <summary>
+    /// Gets the predefined <c>tabpanel</c> attribute value.
+    /// </summary>
+    public const string TabPanel = "tabpanel";
 
     /// <summary>
     /// Gets the predefined <c>tag</c> attribute value.
@@ -373,9 +758,19 @@ public static class HtmlAttributeValues
     public const string Tel = "tel";
 
     /// <summary>
+    /// Gets the predefined <c>term</c> attribute value.
+    /// </summary>
+    public const string Term = "term";
+
+    /// <summary>
     /// Gets the predefined <c>text</c> attribute value.
     /// </summary>
     public const string Text = "text";
+
+    /// <summary>
+    /// Gets the predefined <c>textbox</c> attribute value.
+    /// </summary>
+    public const string TextBox = "textbox";
 
     /// <summary>
     /// Gets the predefined <c>text/css</c> attribute value.
@@ -398,9 +793,39 @@ public static class HtmlAttributeValues
     public const string Time = "time";
 
     /// <summary>
+    /// Gets the predefined <c>timer</c> attribute value.
+    /// </summary>
+    public const string Timer = "timer";
+
+    /// <summary>
+    /// Gets the predefined <c>toolbar</c> attribute value.
+    /// </summary>
+    public const string Toolbar = "toolbar";
+
+    /// <summary>
+    /// Gets the predefined <c>tooltip</c> attribute value.
+    /// </summary>
+    public const string Tooltip = "tooltip";
+
+    /// <summary>
     /// Gets the predefined <c>_top</c> attribute value.
     /// </summary>
     public const string Top = "_top";
+
+    /// <summary>
+    /// Gets the predefined <c>tree</c> attribute value.
+    /// </summary>
+    public const string Tree = "tree";
+
+    /// <summary>
+    /// Gets the predefined <c>treegrid</c> attribute value.
+    /// </summary>
+    public const string TreeGrid = "treegrid";
+
+    /// <summary>
+    /// Gets the predefined <c>treeitem</c> attribute value.
+    /// </summary>
+    public const string TreeItem = "treeitem";
 
     /// <summary>
     /// Gets the predefined <c>url</c> attribute value.
@@ -421,6 +846,11 @@ public static class HtmlAttributeValues
     /// Gets the predefined <c>week</c> attribute value.
     /// </summary>
     public const string Week = "week";
+
+    /// <summary>
+    /// Gets the predefined <c>yes</c> attribute value.
+    /// </summary>
+    public const string Yes = "yes";
 
     /// <summary>
     ///  Gets values which are valid for the <c>autocomplete</c> attribute.
@@ -446,6 +876,11 @@ public static class HtmlAttributeValues
     /// Gets values which are valid for the <c>enctype</c> attribute.
     /// </summary>
     public static readonly EncTypeValues ForEncType = new();
+
+    /// <summary>
+    /// Gets values which are valid for the <c>enterkeyhint</c> attribute.
+    /// </summary>
+    public static readonly EnterKeyHintValues ForEnterKeyHint = new();
 
     /// <summary>
     /// Gets values which are valid for the <c>formmethod</c> attribute.
@@ -478,6 +913,11 @@ public static class HtmlAttributeValues
     public static readonly RelValues ForRel = new();
 
     /// <summary>
+    /// Gets values which are valid for the <c>role</c> attribute.
+    /// </summary>
+    public static readonly RoleValues ForRole = new();
+
+    /// <summary>
     /// Gets values which are valid for the <c>scope</c> attribute.
     /// </summary>
     public static readonly ScopeValues ForScope = new();
@@ -491,6 +931,11 @@ public static class HtmlAttributeValues
     /// Gets values which are valid for the <c>target</c> attribute.
     /// </summary>
     public static readonly TargetValues ForTarget = new();
+
+    /// <summary>
+    /// Gets values which are valid for the <c>translate</c> attribute.
+    /// </summary>
+    public static readonly TranslateValues ForTranslate = new();
 
     /// <summary>
     /// Gets values which are valid for the <c>type</c> attribute.
