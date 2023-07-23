@@ -53,6 +53,261 @@ public static class HtmlAttributes
     public const string Alt = "alt";
 
     /// <summary>
+    /// Gets the <c>aria-activedescendant</c> attribute name.
+    /// </summary>
+    public const string AriaActiveDescendant = "aria-activedescendant";
+
+    /// <summary>
+    /// Gets the <c>aria-atomic</c> attribute name.
+    /// </summary>
+    public const string AriaAtomic = "aria-atomic";
+
+    /// <summary>
+    /// Gets the <c>aria-autocomplete</c> attribute name.
+    /// </summary>
+    public const string AriaAutoComplete = "aria-autocomplete";
+
+    /// <summary>
+    /// Gets the <c>aria-braillelabel</c> attribute name.
+    /// </summary>
+    public const string AriaBrailleLabel = "aria-braillelabel";
+
+    /// <summary>
+    /// Gets the <c>aria-brailleroledescription</c> attribute name.
+    /// </summary>
+    public const string AriaBrailleRoleDescription = "aria-brailleroledescription";
+
+    /// <summary>
+    /// Gets the <c>aria-busy</c> attribute name.
+    /// </summary>
+    public const string AriaBusy = "aria-busy";
+
+    /// <summary>
+    /// Gets the <c>aria-checked</c> attribute name.
+    /// </summary>
+    public const string AriaChecked = "aria-checked";
+
+    /// <summary>
+    /// Gets the <c>aria-colcount</c> attribute name.
+    /// </summary>
+    public const string AriaColCount = "aria-colcount";
+
+    /// <summary>
+    /// Gets the <c>aria-colindex</c> attribute name.
+    /// </summary>
+    public const string AriaColIndex = "aria-colindex";
+
+    /// <summary>
+    /// Gets the <c>aria-colindextext</c> attribute name.
+    /// </summary>
+    public const string AriaColIndexText = "aria-colindextext";
+
+    /// <summary>
+    /// Gets the <c>aria-colspan</c> attribute name.
+    /// </summary>
+    public const string AriaColSpan = "aria-colspan";
+
+    /// <summary>
+    /// Gets the <c>aria-controls</c> attribute name.
+    /// </summary>
+    public const string AriaControls = "aria-controls";
+
+    /// <summary>
+    /// Gets the <c>aria-current</c> attribute name.
+    /// </summary>
+    public const string AriaCurrent = "aria-current";
+
+    /// <summary>
+    /// Gets the <c>aria-describedby</c> attribute name.
+    /// </summary>
+    public const string AriaDescribedBy = "aria-describedby";
+
+    /// <summary>
+    /// Gets the <c>aria-description</c> attribute name.
+    /// </summary>
+    public const string AriaDescription = "aria-description";
+
+    /// <summary>
+    /// Gets the <c>aria-details</c> attribute name.
+    /// </summary>
+    public const string AriaDetails = "aria-details";
+
+    /// <summary>
+    /// Gets the <c>aria-disabled</c> attribute name.
+    /// </summary>
+    public const string AriaDisabled = "aria-disabled";
+
+    /// <summary>
+    /// Gets the <c>aria-errormessage</c> attribute name.
+    /// </summary>
+    public const string AriaErrorMessage = "aria-errormessage";
+
+    /// <summary>
+    /// Gets the <c>aria-expanded</c> attribute name.
+    /// </summary>
+    public const string AriaExpanded = "aria-expanded";
+
+    /// <summary>
+    /// Gets the <c>aria-flowto</c> attribute name.
+    /// </summary>
+    public const string AriaFlowTo = "aria-flowto";
+
+    /// <summary>
+    /// Gets the <c>aria-haspopup</c> attribute name.
+    /// </summary>
+    public const string AriaHasPopup = "aria-haspopup";
+
+    /// <summary>
+    /// Gets the <c>aria-hidden</c> attribute name.
+    /// </summary>
+    public const string AriaHidden = "aria-hidden";
+
+    /// <summary>
+    /// Gets the <c>aria-invalid</c> attribute name.
+    /// </summary>
+    public const string AriaInvalid = "aria-invalid";
+
+    /// <summary>
+    /// Gets the <c>aria-keyshortcuts</c> attribute name.
+    /// </summary>
+    public const string AriaKeyShortcuts = "aria-keyshortcuts";
+
+    /// <summary>
+    /// Gets the <c>aria-label</c> attribute name.
+    /// </summary>
+    public const string AriaLabel = "aria-label";
+
+    /// <summary>
+    /// Gets the <c>aria-labelledby</c> attribute name.
+    /// </summary>
+    public const string AriaLabelledBy = "aria-labelledby";
+
+    /// <summary>
+    /// Gets the <c>aria-level</c> attribute name.
+    /// </summary>
+    public const string AriaLevel = "aria-level";
+
+    /// <summary>
+    /// Gets the <c>aria-live</c> attribute name.
+    /// </summary>
+    public const string AriaLive = "aria-live";
+
+    /// <summary>
+    /// Gets the <c>aria-modal</c> attribute name.
+    /// </summary>
+    public const string AriaModal = "aria-modal";
+
+    /// <summary>
+    /// Gets the <c>aria-multiline</c> attribute name.
+    /// </summary>
+    public const string AriaMultiLine = "aria-multiline";
+
+    /// <summary>
+    /// Gets the <c>aria-multiselectable</c> attribute name.
+    /// </summary>
+    public const string AriaMultiSelectable = "aria-multiselectable";
+
+    /// <summary>
+    /// Gets the <c>aria-orientation</c> attribute name.
+    /// </summary>
+    public const string AriaOrientation = "aria-orientation";
+
+    /// <summary>
+    /// Gets the <c>aria-owns</c> attribute name.
+    /// </summary>
+    public const string AriaOwns = "aria-owns";
+
+    /// <summary>
+    /// Gets the <c>aria-placeholder</c> attribute name.
+    /// </summary>
+    public const string AriaPlaceholder = "aria-placeholder";
+
+    /// <summary>
+    /// Gets the <c>aria-posinset</c> attribute name.
+    /// </summary>
+    public const string AriaPosInSet = "aria-posinset";
+
+    /// <summary>
+    /// Gets the <c>aria-pressed</c> attribute name.
+    /// </summary>
+    public const string AriaPressed = "aria-pressed";
+
+    /// <summary>
+    /// Gets the <c>aria-readonly</c> attribute name.
+    /// </summary>
+    public const string AriaReadOnly = "aria-readonly";
+
+    /// <summary>
+    /// Gets the <c>aria-relevant</c> attribute name.
+    /// </summary>
+    public const string AriaRelevant = "aria-relevant";
+
+    /// <summary>
+    /// Gets the <c>aria-required</c> attribute name.
+    /// </summary>
+    public const string AriaRequired = "aria-required";
+
+    /// <summary>
+    /// Gets the <c>aria-roledescription</c> attribute name.
+    /// </summary>
+    public const string AriaRoleDescription = "aria-roledescription";
+
+    /// <summary>
+    /// Gets the <c>aria-rowcount</c> attribute name.
+    /// </summary>
+    public const string AriaRowCount = "aria-rowcount";
+
+    /// <summary>
+    /// Gets the <c>aria-rowindex</c> attribute name.
+    /// </summary>
+    public const string AriaRowIndex = "aria-rowindex";
+
+    /// <summary>
+    /// Gets the <c>aria-rowindextext</c> attribute name.
+    /// </summary>
+    public const string AriaRowIndexText = "aria-rowindextext";
+
+    /// <summary>
+    /// Gets the <c>aria-rowspan</c> attribute name.
+    /// </summary>
+    public const string AriaRowSpan = "aria-rowspan";
+
+    /// <summary>
+    /// Gets the <c>aria-selected</c> attribute name.
+    /// </summary>
+    public const string AriaSelected = "aria-selected";
+
+    /// <summary>
+    /// Gets the <c>aria-setsize</c> attribute name.
+    /// </summary>
+    public const string AriaSetSize = "aria-setsize";
+
+    /// <summary>
+    /// Gets the <c>aria-sort</c> attribute name.
+    /// </summary>
+    public const string AriaSort = "aria-sort";
+
+    /// <summary>
+    /// Gets the <c>aria-valuemax</c> attribute name.
+    /// </summary>
+    public const string AriaValueMax = "aria-valuemax";
+
+    /// <summary>
+    /// Gets the <c>aria-valuemin</c> attribute name.
+    /// </summary>
+    public const string AriaValueMin = "aria-valuemin";
+
+    /// <summary>
+    /// Gets the <c>aria-valuenow</c> attribute name.
+    /// </summary>
+    public const string AriaValueNow = "aria-valuenow";
+
+    /// <summary>
+    /// Gets the <c>aria-valuetext</c> attribute name.
+    /// </summary>
+    public const string AriaValueText = "aria-valuetext";
+
+    /// <summary>
     /// Gets the <c>async</c> attribute name.
     /// </summary>
     public const string Async = "async";
