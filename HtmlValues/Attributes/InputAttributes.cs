@@ -21,11 +21,6 @@ public class InputAttributes : GlobalAttributes
     public string AutoComplete => HtmlAttributes.AutoComplete;
 
     /// <summary>
-    /// Gets the name of the autofocus attribute.
-    /// </summary>
-    public string AutoFocus => HtmlAttributes.AutoFocus;
-
-    /// <summary>
     /// Gets the name of the <c>capture</c> attribute.
     /// </summary>
     public string Capture => HtmlAttributes.Capture;

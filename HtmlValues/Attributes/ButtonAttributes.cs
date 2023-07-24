@@ -6,11 +6,6 @@
 public class ButtonAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the autofocus attribute.
-    /// </summary>
-    public string AutoFocus => HtmlAttributes.AutoFocus;
-
-    /// <summary>
     /// Gets the name of the disabled attribute.
     /// </summary>
     public string Disabled => HtmlAttributes.Disabled;

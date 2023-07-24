@@ -1,5 +1,8 @@
 ﻿namespace HtmlValues.Attributes;
 
+/// <summary>
+/// Provides access to the attributes of the meta element.
+/// </summary>
 public class MetaAttributes : GlobalAttributes
 {
     /// <summary>

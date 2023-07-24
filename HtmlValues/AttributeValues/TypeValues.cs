@@ -8,7 +8,7 @@ public class TypeValues
     /// <summary>
     /// Gets the predefined <c>range</c> attribute value.
     /// </summary>
-    public string Range = HtmlAttributeValues.Range;
+    public string Range => HtmlAttributeValues.Range;
 
     /// <summary>
     /// Gets the predefined <c>button</c> attribute value.

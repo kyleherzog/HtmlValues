@@ -4,6 +4,9 @@ using System.Text;
 
 namespace HtmlValues.Attributes;
 
+/// <summary>
+/// Provides access to the attributes of the img element.
+/// </summary>
 public class ImgAttributes : GlobalAttributes
 {
     /// <summary>

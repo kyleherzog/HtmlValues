@@ -1,5 +1,8 @@
 ﻿namespace HtmlValues.Attributes
 {
+    /// <summary>
+    /// Provides access to the attributes that are common to all HTML elements.
+    /// </summary>
     public class GlobalAttributes
     {
         /// <summary>
@@ -142,6 +145,6 @@
         /// </summary>
         /// <param name="name">The data attribute name that is to be prefixed with <c>data-</c>.</param>
         /// <returns>The full data attribute name.</returns>
-        public string Data(string name) => $"{HtmlAttributes.Data}-{name}";
+        public string DataDash(string name) => $"{HtmlAttributes.Data}-{name}";
     }
 }

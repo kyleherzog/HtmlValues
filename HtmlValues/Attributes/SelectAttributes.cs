@@ -11,11 +11,6 @@ public class SelectAttributes : GlobalAttributes
     public string AutoComplete => HtmlAttributes.AutoComplete;
 
     /// <summary>
-    /// Gets the name of the autofocus attribute.
-    /// </summary>
-    public string AutoFocus => HtmlAttributes.AutoFocus;
-
-    /// <summary>
     /// Gets the name of the disabled attribute.
     /// </summary>
     public string Disabled => HtmlAttributes.Disabled;

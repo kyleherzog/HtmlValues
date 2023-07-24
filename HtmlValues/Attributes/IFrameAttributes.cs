@@ -3,6 +3,7 @@
 /// /// <summary>
 /// Provides access to the attributes of the iframe element.
 /// </summary>
+[System.Diagnostics.CodeAnalysis.SuppressMessage("Minor Code Smell", "S101:Types should be named in PascalCase", Justification = "The casing is appropriate given the tag name this targets")]
 public class IFrameAttributes : GlobalAttributes
 {
     /// <summary>
