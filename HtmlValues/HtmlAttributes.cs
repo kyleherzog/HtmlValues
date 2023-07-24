@@ -53,257 +53,257 @@ public static class HtmlAttributes
     public const string Alt = "alt";
 
     /// <summary>
-    /// Gets the <c>aria-activedescendant</c> attribute name.
+    /// Gets the <c>aria-activedescendant</c> attribute name.  This attribute is used to identify the currently active element when focus is on a <c>composite</c> widget, <c>combobox</c>, <c>textbox</c>, <c>group</c>, or <c>application</c>.
     /// </summary>
     public const string AriaActiveDescendant = "aria-activedescendant";
 
     /// <summary>
-    /// Gets the <c>aria-atomic</c> attribute name.
+    /// Gets the <c>aria-atomic</c> attribute name. This indicates whether assistive technologies will present all, or only parts of, the changed region based on the change notifications defined by the <c>aria-relevant</c> attribute.
     /// </summary>
     public const string AriaAtomic = "aria-atomic";
 
     /// <summary>
-    /// Gets the <c>aria-autocomplete</c> attribute name.
+    /// Gets the <c>aria-autocomplete</c> attribute name. This indicates whether inputting text could trigger display of one or more predictions of the user's intended value for an input and specifies how predictions would be presented if they are made.
     /// </summary>
     public const string AriaAutoComplete = "aria-autocomplete";
 
     /// <summary>
-    /// Gets the <c>aria-braillelabel</c> attribute name.
+    /// Gets the <c>aria-braillelabel</c> attribute name. This defines a string value that labels the current element, which is intended to be converted into braille.
     /// </summary>
     public const string AriaBrailleLabel = "aria-braillelabel";
 
     /// <summary>
-    /// Gets the <c>aria-brailleroledescription</c> attribute name.
+    /// Gets the <c>aria-brailleroledescription</c> attribute name. This defines a human-readable, author-localized abbreviated description for the role of an element intended to be converted into braille.
     /// </summary>
     public const string AriaBrailleRoleDescription = "aria-brailleroledescription";
 
     /// <summary>
-    /// Gets the <c>aria-busy</c> attribute name.
+    /// Gets the <c>aria-busy</c> attribute name. This indicates an element is being modified and that assistive technologies may want to wait until the modifications are complete before exposing them to the user.
     /// </summary>
     public const string AriaBusy = "aria-busy";
 
     /// <summary>
-    /// Gets the <c>aria-checked</c> attribute name.
+    /// Gets the <c>aria-checked</c> attribute name. This indicates the current "checked" state of checkboxes, radio buttons, and other widgets.
     /// </summary>
     public const string AriaChecked = "aria-checked";
 
     /// <summary>
-    /// Gets the <c>aria-colcount</c> attribute name.
+    /// Gets the <c>aria-colcount</c> attribute name. This defines the total number of columns in a <c>table</c>, <c>grid</c>, or <c>treegrid</c> when not all columns are present in the DOM.
     /// </summary>
     public const string AriaColCount = "aria-colcount";
 
     /// <summary>
-    /// Gets the <c>aria-colindex</c> attribute name.
+    /// Gets the <c>aria-colindex</c> attribute name. This defines an element's column index or position with respect to the total number of columns within a <c>table</c>, <c>grid</c>, or <c>treegrid</c>.
     /// </summary>
     public const string AriaColIndex = "aria-colindex";
 
     /// <summary>
-    /// Gets the <c>aria-colindextext</c> attribute name.
+    /// Gets the <c>aria-colindextext</c> attribute name. This defines a human-readable text alternative to the <c>aria-colindex</c> attribute.
     /// </summary>
     public const string AriaColIndexText = "aria-colindextext";
 
     /// <summary>
-    /// Gets the <c>aria-colspan</c> attribute name.
+    /// Gets the <c>aria-colspan</c> attribute name. This defines the number of columns spanned by a cell or gridcell within a <c>table</c>, <c>grid</c>, or <c>treegrid</c>.
     /// </summary>
     public const string AriaColSpan = "aria-colspan";
 
     /// <summary>
-    /// Gets the <c>aria-controls</c> attribute name.
+    /// Gets the <c>aria-controls</c> attribute name. This identifies the element (or elements) whose contents or presence are controlled by the current element.
     /// </summary>
     public const string AriaControls = "aria-controls";
 
     /// <summary>
-    /// Gets the <c>aria-current</c> attribute name.
+    /// Gets the <c>aria-current</c> attribute name. This indicates that this element represents the current item within a container or set of related elements.
     /// </summary>
     public const string AriaCurrent = "aria-current";
 
     /// <summary>
-    /// Gets the <c>aria-describedby</c> attribute name.
+    /// Gets the <c>aria-describedby</c> attribute name. This identifies the element (or elements) that describes the element on which the attribute is set.
     /// </summary>
     public const string AriaDescribedBy = "aria-describedby";
 
     /// <summary>
-    /// Gets the <c>aria-description</c> attribute name.
+    /// Gets the <c>aria-description</c> attribute name. THis defines a string value that describes or annotates the current element.
     /// </summary>
     public const string AriaDescription = "aria-description";
 
     /// <summary>
-    /// Gets the <c>aria-details</c> attribute name.
+    /// Gets the <c>aria-details</c> attribute name. This identifies the element (or elements) that provide additional information related to the object.
     /// </summary>
     public const string AriaDetails = "aria-details";
 
     /// <summary>
-    /// Gets the <c>aria-disabled</c> attribute name.
+    /// Gets the <c>aria-disabled</c> attribute name. This indicates that the element is perceivable but disabled, so it is not editable or otherwise operable.
     /// </summary>
     public const string AriaDisabled = "aria-disabled";
 
     /// <summary>
-    /// Gets the <c>aria-errormessage</c> attribute name.
+    /// Gets the <c>aria-errormessage</c> attribute name. This identifies the element that provides an error message for the object.
     /// </summary>
     public const string AriaErrorMessage = "aria-errormessage";
 
     /// <summary>
-    /// Gets the <c>aria-expanded</c> attribute name.
+    /// Gets the <c>aria-expanded</c> attribute name. This is used to indicate if a control is expanded or collapsed, and whether or not the controlled elements are displayed or hidden.
     /// </summary>
     public const string AriaExpanded = "aria-expanded";
 
     /// <summary>
-    /// Gets the <c>aria-flowto</c> attribute name.
+    /// Gets the <c>aria-flowto</c> attribute name. This identifies the next element (or elements) in an alternate reading order of content which, at the user's discretion, allows assistive technology to override the general default of reading in document source order.
     /// </summary>
     public const string AriaFlowTo = "aria-flowto";
 
     /// <summary>
-    /// Gets the <c>aria-haspopup</c> attribute name.
+    /// Gets the <c>aria-haspopup</c> attribute name. This indicates the availability and type of interactive popup element, such as menu or dialog, that can be triggered by the element on which the attribute is set.
     /// </summary>
     public const string AriaHasPopup = "aria-haspopup";
 
     /// <summary>
-    /// Gets the <c>aria-hidden</c> attribute name.
+    /// Gets the <c>aria-hidden</c> attribute name. This indicates whether the element is exposed to an accessibility API.
     /// </summary>
     public const string AriaHidden = "aria-hidden";
 
     /// <summary>
-    /// Gets the <c>aria-invalid</c> attribute name.
+    /// Gets the <c>aria-invalid</c> attribute name. This indicates that the entered value does not conform to the format expected by the application.
     /// </summary>
     public const string AriaInvalid = "aria-invalid";
 
     /// <summary>
-    /// Gets the <c>aria-keyshortcuts</c> attribute name.
+    /// Gets the <c>aria-keyshortcuts</c> attribute name. This indicates keyboard shortcuts that an author has implemented to activate or give focus to an element.
     /// </summary>
     public const string AriaKeyShortcuts = "aria-keyshortcuts";
 
     /// <summary>
-    /// Gets the <c>aria-label</c> attribute name.
+    /// Gets the <c>aria-label</c> attribute name. This defines a string value that labels an interactive element.
     /// </summary>
     public const string AriaLabel = "aria-label";
 
     /// <summary>
-    /// Gets the <c>aria-labelledby</c> attribute name.
+    /// Gets the <c>aria-labelledby</c> attribute name. This identifies the element (or elements) that labels the element to which it is applied.
     /// </summary>
     public const string AriaLabelledBy = "aria-labelledby";
 
     /// <summary>
-    /// Gets the <c>aria-level</c> attribute name.
+    /// Gets the <c>aria-level</c> attribute name. This defines the hierarchical level of an element within a structure.
     /// </summary>
     public const string AriaLevel = "aria-level";
 
     /// <summary>
-    /// Gets the <c>aria-live</c> attribute name.
+    /// Gets the <c>aria-live</c> attribute name. This indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region.
     /// </summary>
     public const string AriaLive = "aria-live";
 
     /// <summary>
-    /// Gets the <c>aria-modal</c> attribute name.
+    /// Gets the <c>aria-modal</c> attribute name. This indicates whether an element is modal when displayed.
     /// </summary>
     public const string AriaModal = "aria-modal";
 
     /// <summary>
-    /// Gets the <c>aria-multiline</c> attribute name.
+    /// Gets the <c>aria-multiline</c> attribute name. This indicates whether a <c>textbox</c> accepts multiple lines of input or only a single line.
     /// </summary>
     public const string AriaMultiLine = "aria-multiline";
 
     /// <summary>
-    /// Gets the <c>aria-multiselectable</c> attribute name.
+    /// Gets the <c>aria-multiselectable</c> attribute name. This indicates that the user may select more than one item from the current selectable descendants.
     /// </summary>
     public const string AriaMultiSelectable = "aria-multiselectable";
 
     /// <summary>
-    /// Gets the <c>aria-orientation</c> attribute name.
+    /// Gets the <c>aria-orientation</c> attribute name. This indicates whether the element's orientation is horizontal, vertical, or unknown/ambiguous.
     /// </summary>
     public const string AriaOrientation = "aria-orientation";
 
     /// <summary>
-    /// Gets the <c>aria-owns</c> attribute name.
+    /// Gets the <c>aria-owns</c> attribute name. This identifies an element (or elements) in order to define a visual, functional, or contextual parent/child relationship between DOM elements where the DOM hierarchy cannot be used to represent the relationship.
     /// </summary>
     public const string AriaOwns = "aria-owns";
 
     /// <summary>
-    /// Gets the <c>aria-placeholder</c> attribute name.
+    /// Gets the <c>aria-placeholder</c> attribute name. This defines a short hint (a word or short phrase) intended to aid the user with data entry when the control has no value. The hint can be a sample value or a brief description of the expected format.
     /// </summary>
     public const string AriaPlaceholder = "aria-placeholder";
 
     /// <summary>
-    /// Gets the <c>aria-posinset</c> attribute name.
+    /// Gets the <c>aria-posinset</c> attribute name. This defines an element's number or position in the current set of listitems or treeitems when not all items are present in the DOM.
     /// </summary>
     public const string AriaPosInSet = "aria-posinset";
 
     /// <summary>
-    /// Gets the <c>aria-pressed</c> attribute name.
+    /// Gets the <c>aria-pressed</c> attribute name. This indicates the current "pressed" state of toggle buttons.
     /// </summary>
     public const string AriaPressed = "aria-pressed";
 
     /// <summary>
-    /// Gets the <c>aria-readonly</c> attribute name.
+    /// Gets the <c>aria-readonly</c> attribute name. This indicates that the element is not editable, but is otherwise operable.
     /// </summary>
     public const string AriaReadOnly = "aria-readonly";
 
     /// <summary>
-    /// Gets the <c>aria-relevant</c> attribute name.
+    /// Gets the <c>aria-relevant</c> attribute name. This indicates what notifications the user agent will trigger when the accessibility tree within a live region is modified.
     /// </summary>
     public const string AriaRelevant = "aria-relevant";
 
     /// <summary>
-    /// Gets the <c>aria-required</c> attribute name.
+    /// Gets the <c>aria-required</c> attribute name. This indicates that user input is required on the element before a form may be submitted.
     /// </summary>
     public const string AriaRequired = "aria-required";
 
     /// <summary>
-    /// Gets the <c>aria-roledescription</c> attribute name.
+    /// Gets the <c>aria-roledescription</c> attribute name. This defines a human-readable, author-localized description for the role of an element.
     /// </summary>
     public const string AriaRoleDescription = "aria-roledescription";
 
     /// <summary>
-    /// Gets the <c>aria-rowcount</c> attribute name.
+    /// Gets the <c>aria-rowcount</c> attribute name. This defines the total number of rows in a table, grid, or treegrid.
     /// </summary>
     public const string AriaRowCount = "aria-rowcount";
 
     /// <summary>
-    /// Gets the <c>aria-rowindex</c> attribute name.
+    /// Gets the <c>aria-rowindex</c> attribute name. This defines an element's row index or position with respect to the total number of rows within a table, grid, or treegrid.
     /// </summary>
     public const string AriaRowIndex = "aria-rowindex";
 
     /// <summary>
-    /// Gets the <c>aria-rowindextext</c> attribute name.
+    /// Gets the <c>aria-rowindextext</c> attribute name. This defines a human-readable text alternative of <c>aria-rowindex</c>. 
     /// </summary>
     public const string AriaRowIndexText = "aria-rowindextext";
 
     /// <summary>
-    /// Gets the <c>aria-rowspan</c> attribute name.
+    /// Gets the <c>aria-rowspan</c> attribute name. This defines the number of rows spanned by a cell or gridcell within a table, grid, or treegrid.
     /// </summary>
     public const string AriaRowSpan = "aria-rowspan";
 
     /// <summary>
-    /// Gets the <c>aria-selected</c> attribute name.
+    /// Gets the <c>aria-selected</c> attribute name. This indicates the current "selected" state of various widgets.
     /// </summary>
     public const string AriaSelected = "aria-selected";
 
     /// <summary>
-    /// Gets the <c>aria-setsize</c> attribute name.
+    /// Gets the <c>aria-setsize</c> attribute name. This defines the number of items in the current set of listitems or treeitems when not all items are present in the DOM.
     /// </summary>
     public const string AriaSetSize = "aria-setsize";
 
     /// <summary>
-    /// Gets the <c>aria-sort</c> attribute name.
+    /// Gets the <c>aria-sort</c> attribute name. This indicates if items in a table or grid are sorted in ascending or descending order.
     /// </summary>
     public const string AriaSort = "aria-sort";
 
     /// <summary>
-    /// Gets the <c>aria-valuemax</c> attribute name.
+    /// Gets the <c>aria-valuemax</c> attribute name. This defines the maximum allowed value for a range widget.
     /// </summary>
     public const string AriaValueMax = "aria-valuemax";
 
     /// <summary>
-    /// Gets the <c>aria-valuemin</c> attribute name.
+    /// Gets the <c>aria-valuemin</c> attribute name. This defines the minimum allowed value for a range widget.
     /// </summary>
     public const string AriaValueMin = "aria-valuemin";
 
     /// <summary>
-    /// Gets the <c>aria-valuenow</c> attribute name.
+    /// Gets the <c>aria-valuenow</c> attribute name. This defines the current value for a range widget.
     /// </summary>
     public const string AriaValueNow = "aria-valuenow";
 
     /// <summary>
-    /// Gets the <c>aria-valuetext</c> attribute name.
+    /// Gets the <c>aria-valuetext</c> attribute name. This defines the human-readable text alternative of <c>aria-valuenow</c> for a range widget.
     /// </summary>
     public const string AriaValueText = "aria-valuetext";
 
