@@ -8,6 +8,26 @@ namespace HtmlValues;
 public static class HtmlAttributeValues
 {
     /// <summary>
+    /// Gets the predefined <c>_blank</c> attribute value.
+    /// </summary>
+    public const string _Blank = "_blank";
+
+    /// <summary>
+    /// Gets the predefined <c>_parent</c> attribute value.
+    /// </summary>
+    public const string _Parent = "_parent";
+
+    /// <summary>
+    /// Gets the predefined <c>_self</c> attribute value.
+    /// </summary>
+    public const string _Self = "_self";
+
+    /// <summary>
+    /// Gets the predefined <c>_top</c> attribute value.
+    /// </summary>
+    public const string _Top = "_top";
+
+    /// <summary>
     /// Gets the predefined <c>alert</c> attribute value.
     /// </summary>
     public const string Alert = "alert";
@@ -71,11 +91,6 @@ public static class HtmlAttributeValues
     /// Gets the predefined <c>banner</c> attribute value.
     /// </summary>
     public const string Banner = "banner";
-
-    /// <summary>
-    /// Gets the predefined <c>_blank</c> attribute value.
-    /// </summary>
-    public const string Blank = "_blank";
 
     /// <summary>
     /// Gets the predefined <c>blockquote</c> attribute value.
@@ -528,11 +543,6 @@ public static class HtmlAttributeValues
     public const string Paragraph = "paragraph";
 
     /// <summary>
-    /// Gets the predefined <c>_parent</c> attribute value.
-    /// </summary>
-    public const string Parent = "_parent";
-
-    /// <summary>
     /// Gets the predefined <c>password</c> attribute value.
     /// </summary>
     public const string Password = "password";
@@ -651,11 +661,6 @@ public static class HtmlAttributeValues
     /// Gets the predefined <c>searchbox</c> attribute value.
     /// </summary>
     public const string SearchBox = "searchbox";
-
-    /// <summary>
-    /// Gets the predefined <c>_self</c> attribute value.
-    /// </summary>
-    public const string Self = "_self";
 
     /// <summary>
     /// Gets the predefined <c>send</c> attribute value.
@@ -806,11 +811,6 @@ public static class HtmlAttributeValues
     /// Gets the predefined <c>tooltip</c> attribute value.
     /// </summary>
     public const string Tooltip = "tooltip";
-
-    /// <summary>
-    /// Gets the predefined <c>_top</c> attribute value.
-    /// </summary>
-    public const string Top = "_top";
 
     /// <summary>
     /// Gets the predefined <c>tree</c> attribute value.

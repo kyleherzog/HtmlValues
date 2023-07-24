@@ -8,20 +8,20 @@ public class TargetValues
     /// <summary>
     /// Gets the predefined <c>_blank</c> attribute value.
     /// </summary>
-    public string Blank => HtmlAttributeValues.Blank;
+    public string _Blank => HtmlAttributeValues._Blank;
 
     /// <summary>
     /// Gets the predefined <c>_parent</c> attribute value.
     /// </summary>
-    public string Parent => HtmlAttributeValues.Parent;
+    public string _Parent => HtmlAttributeValues._Parent;
 
     /// <summary>
     /// Gets the predefined <c>_self</c> attribute value.
     /// </summary>
-    public string Self => HtmlAttributeValues.Self;
+    public string S_elf => HtmlAttributeValues._Self;
 
     /// <summary>
     /// Gets the predefined <c>_top</c> attribute value.
     /// </summary>
-    public string Top => HtmlAttributeValues.Top;
+    public string _Top => HtmlAttributeValues._Top;
 }
