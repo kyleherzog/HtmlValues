@@ -1,6 +1,8 @@
 # WebIdentifiers.Html
 Provides constant definitions for identifiers used in HTML including tags and attributes.
 
+![Nuget](https://img.shields.io/nuget/v/WebIdentifiers.Html)
+
 [![Build Status](https://dev.azure.com/kyleherzog/WebIdentifiers/_apis/build/status%2FWebIdentifiers.Html?branchName=main)](https://dev.azure.com/kyleherzog/WebIdentifiers/_build/latest?definitionId=25&branchName=main)
 
 ## Overview
