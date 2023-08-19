@@ -1,6 +1,9 @@
 ﻿namespace WebIdentifiers.Html;
 
-internal static class HtmlTags
+/// <summary>
+/// Provides constant values for known HTML tag names.
+/// </summary>
+public static class HtmlTags
 {
     /// <summary>
     /// Gets the name of the <c>a</c> tag.
