@@ -6,42 +6,58 @@
 public class ObjectAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the data attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>data</c> attribute name and optionally specified value.
     /// </summary>
-    public string Data => HtmlAttributes.Data;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Data(string? value) => HtmlAttributes.Data(value);
 
     /// <summary>
-    /// Gets the name of the form attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>form</c> attribute name and optionally specified value.
     /// </summary>
-    public string Form => HtmlAttributes.Form;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Form(string? value) => HtmlAttributes.Form(value);
 
     /// <summary>
-    /// Gets the name of the height attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>height</c> attribute name and optionally specified value.
     /// </summary>
-    public string Height => HtmlAttributes.Height;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Height(string? value) => HtmlAttributes.Height(value);
 
     /// <summary>
-    /// Gets the name of the name attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>name</c> attribute name and optionally specified value.
     /// </summary>
-    public string Name => HtmlAttributes.Name;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Name(string? value) => HtmlAttributes.Name(value);
 
     /// <summary>
-    /// Gets the name of the type attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>type</c> attribute name and optionally specified value.
     /// </summary>
-    public string Type => HtmlAttributes.Type;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
 
     /// <summary>
-    /// Provides the name of the typemustmatch attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>typemustmatch</c> attribute name and optionally specified value.
     /// </summary>
-    public string TypeMustMatch => HtmlAttributes.TypeMustMatch;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute TypeMustMatch(string? value) => HtmlAttributes.TypeMustMatch(value);
 
     /// <summary>
-    /// Gets the name of the usemap attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>usemap</c> attribute name and optionally specified value.
     /// </summary>
-    public string UseMap => HtmlAttributes.UseMap;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute UseMap(string? value) => HtmlAttributes.UseMap(value);
 
     /// <summary>
-    /// Gets the name of the width attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>width</c> attribute name and optionally specified value.
     /// </summary>
-    public string Width => HtmlAttributes.Width;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Width(string? value) => HtmlAttributes.Width(value);
 }

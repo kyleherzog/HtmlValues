@@ -6,22 +6,30 @@
 public class EmbedAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the height attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>height</c> and an optional specified value.
     /// </summary>
-    public string Height => HtmlAttributes.Height;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Height(string? value) => HtmlAttributes.Height(value);
 
     /// <summary>
-    /// Gets the name of the src attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>src</c> and an optional specified value.
     /// </summary>
-    public string Src => HtmlAttributes.Src;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Src(string? value) => HtmlAttributes.Src(value);
 
     /// <summary>
-    /// Gets the name of the type attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>type</c> and an optional specified value.
     /// </summary>
-    public string Type => HtmlAttributes.Type;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
 
     /// <summary>
-    /// Gets the name of the width attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>width</c> and an optional specified value.
     /// </summary>
-    public string Width => HtmlAttributes.Width;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Width(string? value) => HtmlAttributes.Width(value);
 }

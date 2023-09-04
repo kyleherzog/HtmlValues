@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WebIdentifiers.Html.AttributeValues;
+﻿namespace WebIdentifiers.Html.AttributeValues;
 
 /// /// <summary>
 /// Provides access to predefined values for the <c>enterkeyhint</c> attribute.
@@ -15,7 +11,7 @@ public class EnterKeyHintValues
     public string Enter => HtmlAttributeValues.Enter;
 
     /// <summary>
-    /// Gets the predefined <c>done</c> attribute value, typically meaning there 
+    /// Gets the predefined <c>done</c> attribute value, typically meaning there
     /// is nothing more to input and the input method editor will be closed.
     /// </summary>
     public string Done => HtmlAttributeValues.Done;
@@ -27,13 +23,13 @@ public class EnterKeyHintValues
     public string Go => HtmlAttributeValues.Go;
 
     /// <summary>
-    /// Gets the predefined <c>next</c> attribute value, typically taking the user to the 
+    /// Gets the predefined <c>next</c> attribute value, typically taking the user to the
     /// next field that will accept text.
     /// </summary>
     public string Next => HtmlAttributeValues.Next;
 
     /// <summary>
-    /// Gets the predefined <c>previous</c> attribute value, typically taking the user to the 
+    /// Gets the predefined <c>previous</c> attribute value, typically taking the user to the
     /// previous field that will accept text.
     /// </summary>
     public string Previous => HtmlAttributeValues.Previous;

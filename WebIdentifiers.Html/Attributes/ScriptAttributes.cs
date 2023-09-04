@@ -6,47 +6,65 @@
 public class ScriptAttributes
 {
     /// <summary>
-    /// Gets the name of the async attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>async</c> attribute name and optionally specified value.
     /// </summary>
-    public string Async => HtmlAttributes.Async;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Async(string? value) => HtmlAttributes.Async(value);
 
     /// <summary>
-    /// Gets the name of the crossorigin attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>crossorigin</c> attribute name and optionally specified value.
     /// </summary>
-    public string CrossOrigin => HtmlAttributes.CrossOrigin;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute CrossOrigin(string? value) => HtmlAttributes.CrossOrigin(value);
 
     /// <summary>
-    /// Gets the name of the defer attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>defer</c> attribute name and optionally specified value.
     /// </summary>
-    public string Defer => HtmlAttributes.Defer;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Defer(string? value) => HtmlAttributes.Defer(value);
 
     /// <summary>
-    /// Gets the name of the integrity attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>integrity</c> attribute name and optionally specified value.
     /// </summary>
-    public string Integrity => HtmlAttributes.Integrity;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Integrity(string? value) => HtmlAttributes.Integrity(value);
 
     /// <summary>
-    /// Gets the name of the nomodule attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>nomodule</c> attribute name and optionally specified value.
     /// </summary>
-    public string NoModule => HtmlAttributes.NoModule;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute NoModule(string? value) => HtmlAttributes.NoModule(value);
 
     /// <summary>
-    /// Gets the name of the nonce attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>nonce</c> attribute name and optionally specified value.
     /// </summary>
-    public string Nonce => HtmlAttributes.Nonce;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Nonce(string? value) => HtmlAttributes.Nonce(value);
 
     /// <summary>
-    /// Gets the name of the referrerpolicy attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>referrerpolicy</c> attribute name and optionally specified value.
     /// </summary>
-    public string ReferrerPolicy => HtmlAttributes.ReferrerPolicy;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute ReferrerPolicy(string? value) => HtmlAttributes.ReferrerPolicy(value);
 
     /// <summary>
-    /// Gets the name of the src attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>src</c> attribute name and optionally specified value.
     /// </summary>
-    public string Src => HtmlAttributes.Src;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Src(string? value) => HtmlAttributes.Src(value);
 
     /// <summary>
-    /// Gets the name of the type attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>type</c> attribute name and optionally specified value.
     /// </summary>
-    public string Type => HtmlAttributes.Type;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
 }

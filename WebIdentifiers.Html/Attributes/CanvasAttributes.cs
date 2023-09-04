@@ -6,12 +6,16 @@
 public class CanvasAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the height attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>height</c> attribute name and optionally specified value.
     /// </summary>
-    public string Height => HtmlAttributes.Height;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Height(string? value) => HtmlAttributes.Height(value);
 
     /// <summary>
-    /// Gets the name of the width attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>width</c> attribute name and optionally specified value.
     /// </summary>
-    public string Width => HtmlAttributes.Width;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Width(string? value) => HtmlAttributes.Width(value);
 }

@@ -6,42 +6,58 @@
 public class LinkAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the crossorigin attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>crossorigin</c> attribute name and optionally specified value.
     /// </summary>
-    public string CrossOrigin => HtmlAttributes.CrossOrigin;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute CrossOrigin(string? value) => HtmlAttributes.CrossOrigin(value);
 
     /// <summary>
-    /// Gets the name of the href attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>href</c> attribute name and optionally specified value.
     /// </summary>
-    public string Href => HtmlAttributes.Href;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Href(string? value) => HtmlAttributes.Href(value);
 
     /// <summary>
-    /// Gets the name of the hreflang attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>hreflang</c> attribute name and optionally specified value.
     /// </summary>
-    public string HrefLang => HtmlAttributes.HrefLang;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute HrefLang(string? value) => HtmlAttributes.HrefLang(value);
 
     /// <summary>
-    /// Gets the name of the media attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>media</c> attribute name and optionally specified value.
     /// </summary>
-    public string Media => HtmlAttributes.Media;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Media(string? value) => HtmlAttributes.Media(value);
 
     /// <summary>
-    /// Gets the name of the referrerpolicy attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>referrerpolicy</c> attribute name and optionally specified value.
     /// </summary>
-    public string ReferrerPolicy => HtmlAttributes.ReferrerPolicy;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute ReferrerPolicy(string? value) => HtmlAttributes.ReferrerPolicy(value);
 
     /// <summary>
-    /// Gets the name of the rel attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>rel</c> attribute name and optionally specified value.
     /// </summary>
-    public string Rel => HtmlAttributes.Rel;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Rel(string? value) => HtmlAttributes.Rel(value);
 
     /// <summary>
-    /// Gets the name of the sizes attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>sizes</c> attribute name and optionally specified value.
     /// </summary>
-    public string Sizes => HtmlAttributes.Sizes;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Sizes(string? value) => HtmlAttributes.Sizes(value);
 
     /// <summary>
-    /// Gets the name of the type attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>type</c> attribute name and optionally specified value.
     /// </summary>
-    public string Type => HtmlAttributes.Type;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
 }

@@ -6,22 +6,30 @@
 public class MetaAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the charset attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>charset</c> attribute name and optionally specified value.
     /// </summary>
-    public string CharSet => HtmlAttributes.CharSet;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute CharSet(string? value) => HtmlAttributes.CharSet(value);
 
     /// <summary>
-    /// Gets the name of the content attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>content</c> attribute name and optionally specified value.
     /// </summary>
-    public string Content => HtmlAttributes.Content;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Content(string? value) => HtmlAttributes.Content(value);
 
     /// <summary>
-    /// Gets the name of the http-equiv attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>http-equiv</c> attribute name and optionally specified value.
     /// </summary>
-    public string HttpEquiv => HtmlAttributes.HttpEquiv;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute HttpEquiv(string? value) => HtmlAttributes.HttpEquiv(value);
 
     /// <summary>
-    /// Gets the name of the name attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>name</c> attribute name and optionally specified value.
     /// </summary>
-    public string Name => HtmlAttributes.Name;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Name(string? value) => HtmlAttributes.Name(value);
 }

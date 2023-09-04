@@ -6,67 +6,93 @@
 public class TextAreaAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the autocomplete attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>autocomplete</c> attribute name and an optionally specified value.
     /// </summary>
-    public string AutoComplete => HtmlAttributes.AutoComplete;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute AutoComplete(string? value) => HtmlAttributes.AutoComplete(value);
 
     /// <summary>
-    /// Gets the name of the cols attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>cols</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Cols => HtmlAttributes.Cols;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Cols(string? value) => HtmlAttributes.Cols(value);
 
     /// <summary>
-    /// Gets the name of the dirname attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>dirname</c> attribute name and an optionally specified value.
     /// </summary>
-    public string DirName => HtmlAttributes.DirName;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute DirName(string? value) => HtmlAttributes.DirName(value);
 
     /// <summary>
-    /// Gets the name of the disabled attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>disabled</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Disabled => HtmlAttributes.Disabled;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Disabled(string? value) => HtmlAttributes.Disabled(value);
 
     /// <summary>
-    /// Gets the name of the form attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>form</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Form => HtmlAttributes.Form;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Form(string? value) => HtmlAttributes.Form(value);
 
     /// <summary>
-    /// Gets the name of the maxlength attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>maxlength</c> attribute name and an optionally specified value.
     /// </summary>
-    public string MaxLength => HtmlAttributes.MaxLength;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute MaxLength(string? value) => HtmlAttributes.MaxLength(value);
 
     /// <summary>
-    /// Gets the name of the minlength attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>minlength</c> attribute name and an optionally specified value.
     /// </summary>
-    public string MinLength => HtmlAttributes.MinLength;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute MinLength(string? value) => HtmlAttributes.MinLength(value);
 
     /// <summary>
-    /// Gets the name of the name attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>name</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Name => HtmlAttributes.Name;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Name(string? value) => HtmlAttributes.Name(value);
 
     /// <summary>
-    /// Gets the name of the placeholder attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>placeholder</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Placeholder => HtmlAttributes.Placeholder;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Placeholder(string? value) => HtmlAttributes.Placeholder(value);
 
     /// <summary>
-    /// Gets the name of the readonly attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>readonly</c> attribute name and an optionally specified value.
     /// </summary>
-    public string ReadOnly => HtmlAttributes.ReadOnly;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute ReadOnly(string? value) => HtmlAttributes.ReadOnly(value);
 
     /// <summary>
-    /// Gets the name of the required attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>required</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Required => HtmlAttributes.Required;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Required(string? value) => HtmlAttributes.Required(value);
 
     /// <summary>
-    /// Gets the name of the rows attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>rows</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Rows => HtmlAttributes.Rows;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Rows(string? value) => HtmlAttributes.Rows(value);
 
     /// <summary>
-    /// Gets the name of the wrap attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>wrap</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Wrap => HtmlAttributes.Wrap;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Wrap(string? value) => HtmlAttributes.Wrap(value);
 }
