@@ -10,5 +10,5 @@ public class DetailsAttributes : GlobalAttributes
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Open(string? value) => HtmlAttributes.Open(value);
+    public HtmlAttribute Open(string? value = null) => HtmlAttributes.Open(value);
 }

@@ -10,5 +10,5 @@ public class MapAttributes : GlobalAttributes
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Name(string? value) => HtmlAttributes.Name(value);
+    public HtmlAttribute Name(string? value = null) => HtmlAttributes.Name(value);
 }

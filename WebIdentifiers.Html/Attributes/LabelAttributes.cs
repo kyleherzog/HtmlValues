@@ -10,12 +10,12 @@ public class LabelAttributes : GlobalAttributes
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute For(string? value) => HtmlAttributes.For(value);
+    public HtmlAttribute For(string? value = null) => HtmlAttributes.For(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>form</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Form(string? value) => HtmlAttributes.Form(value);
+    public HtmlAttribute Form(string? value = null) => HtmlAttributes.Form(value);
 }

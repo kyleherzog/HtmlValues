@@ -10,5 +10,5 @@ public class QAttributes : GlobalAttributes
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Cite(string? value) => HtmlAttributes.Cite(value);
+    public HtmlAttribute Cite(string? value = null) => HtmlAttributes.Cite(value);
 }

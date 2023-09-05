@@ -10,5 +10,5 @@ public class LiAttributes : GlobalAttributes
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Value(string? value) => HtmlAttributes.Value(value);
+    public HtmlAttribute Value(string? value = null) => HtmlAttributes.Value(value);
 }
