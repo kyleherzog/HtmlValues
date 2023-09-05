@@ -6,7 +6,7 @@ public class EqualsShould
     [TestMethod]
     public void ReturnFalseGivenOtherIsNotHtmlAttribute()
     {
-        var attribute = new HtmlAttribute("type");
+        var attribute = new MarkupAttribute("type");
 
         var result = attribute.Equals(1);
 
@@ -16,7 +16,7 @@ public class EqualsShould
     [TestMethod]
     public void ReturnFalseGivenOtherIsNull()
     {
-        var attribute = new HtmlAttribute("type");
+        var attribute = new MarkupAttribute("type");
 
         var result = attribute.Equals(null);
 
@@ -26,8 +26,8 @@ public class EqualsShould
     [TestMethod]
     public void ReturnFalseGivenOtherNameIsNotEqual()
     {
-        var attribute = new HtmlAttribute("type");
-        var other = new HtmlAttribute("name");
+        var attribute = new MarkupAttribute("type");
+        var other = new MarkupAttribute("name");
 
         var result = attribute.Equals(other);
 
@@ -37,8 +37,8 @@ public class EqualsShould
     [TestMethod]
     public void ReturnFalseGivenOtherValueIsNotEqual()
     {
-        var attribute = new HtmlAttribute("type", "button");
-        var other = new HtmlAttribute("type", "submit");
+        var attribute = new MarkupAttribute("type", "button");
+        var other = new MarkupAttribute("type", "submit");
 
         var result = attribute.Equals(other);
 
@@ -48,7 +48,7 @@ public class EqualsShould
     [TestMethod]
     public void ReturnTrueGivenOtherIsStringWithMatchingName()
     {
-        var attribute = new HtmlAttribute("type");
+        var attribute = new MarkupAttribute("type");
 
         var result = attribute.Equals("type");
 
@@ -58,7 +58,7 @@ public class EqualsShould
     [TestMethod]
     public void ReturnTrueGivenOtherIsStringWithMatchingNameAndValue()
     {
-        var attribute = new HtmlAttribute("type", "button");
+        var attribute = new MarkupAttribute("type", "button");
 
         var result = attribute.Equals("type=\"button\"");
 
@@ -68,8 +68,8 @@ public class EqualsShould
     [TestMethod]
     public void ReturnTrueGivenOtherNameAndValueAreEqual()
     {
-        var attribute = new HtmlAttribute("type", "button");
-        var other = new HtmlAttribute("type", "button");
+        var attribute = new MarkupAttribute("type", "button");
+        var other = new MarkupAttribute("type", "button");
 
         var result = attribute.Equals(other);
 
@@ -79,8 +79,8 @@ public class EqualsShould
     [TestMethod]
     public void ReturnTrueGivenOtherNameIsEqualAndValueIsNull()
     {
-        var attribute = new HtmlAttribute("type");
-        var other = new HtmlAttribute("type");
+        var attribute = new MarkupAttribute("type");
+        var other = new MarkupAttribute("type");
 
         var result = attribute.Equals(other);
 

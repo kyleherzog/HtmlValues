@@ -6,58 +6,58 @@
 public class ObjectAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>data</c> attribute name and optionally specified value.
+    /// Creates a new <see cref="MarkupAttribute"/> initialized with the <c>data</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
-    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Data(string? value = null) => HtmlAttributes.Data(value);
+    /// <returns>The new <see cref="MarkupAttribute"/> instance.</returns>
+    public MarkupAttribute Data(string? value = null) => HtmlAttributes.Data(value);
 
     /// <summary>
-    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>form</c> attribute name and optionally specified value.
+    /// Creates a new <see cref="MarkupAttribute"/> initialized with the <c>form</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
-    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Form(string? value = null) => HtmlAttributes.Form(value);
+    /// <returns>The new <see cref="MarkupAttribute"/> instance.</returns>
+    public MarkupAttribute Form(string? value = null) => HtmlAttributes.Form(value);
 
     /// <summary>
-    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>height</c> attribute name and optionally specified value.
+    /// Creates a new <see cref="MarkupAttribute"/> initialized with the <c>height</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
-    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Height(string? value = null) => HtmlAttributes.Height(value);
+    /// <returns>The new <see cref="MarkupAttribute"/> instance.</returns>
+    public MarkupAttribute Height(string? value = null) => HtmlAttributes.Height(value);
 
     /// <summary>
-    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>name</c> attribute name and optionally specified value.
+    /// Creates a new <see cref="MarkupAttribute"/> initialized with the <c>name</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
-    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Name(string? value = null) => HtmlAttributes.Name(value);
+    /// <returns>The new <see cref="MarkupAttribute"/> instance.</returns>
+    public MarkupAttribute Name(string? value = null) => HtmlAttributes.Name(value);
 
     /// <summary>
-    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>type</c> attribute name and optionally specified value.
+    /// Creates a new <see cref="MarkupAttribute"/> initialized with the <c>type</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
-    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Type(string? value = null) => HtmlAttributes.Type(value);
+    /// <returns>The new <see cref="MarkupAttribute"/> instance.</returns>
+    public MarkupAttribute Type(string? value = null) => HtmlAttributes.Type(value);
 
     /// <summary>
-    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>typemustmatch</c> attribute name and optionally specified value.
+    /// Creates a new <see cref="MarkupAttribute"/> initialized with the <c>typemustmatch</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
-    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute TypeMustMatch(string? value = null) => HtmlAttributes.TypeMustMatch(value);
+    /// <returns>The new <see cref="MarkupAttribute"/> instance.</returns>
+    public MarkupAttribute TypeMustMatch(string? value = null) => HtmlAttributes.TypeMustMatch(value);
 
     /// <summary>
-    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>usemap</c> attribute name and optionally specified value.
+    /// Creates a new <see cref="MarkupAttribute"/> initialized with the <c>usemap</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
-    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute UseMap(string? value = null) => HtmlAttributes.UseMap(value);
+    /// <returns>The new <see cref="MarkupAttribute"/> instance.</returns>
+    public MarkupAttribute UseMap(string? value = null) => HtmlAttributes.UseMap(value);
 
     /// <summary>
-    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>width</c> attribute name and optionally specified value.
+    /// Creates a new <see cref="MarkupAttribute"/> initialized with the <c>width</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
-    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Width(string? value = null) => HtmlAttributes.Width(value);
+    /// <returns>The new <see cref="MarkupAttribute"/> instance.</returns>
+    public MarkupAttribute Width(string? value = null) => HtmlAttributes.Width(value);
 }

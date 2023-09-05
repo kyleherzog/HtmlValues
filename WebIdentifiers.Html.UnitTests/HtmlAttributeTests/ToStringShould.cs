@@ -6,7 +6,7 @@ public class ToStringShould
     [TestMethod]
     public void ReturnNameAndEncodedValueGivenValueContainsDoubleQuote()
     {
-        var attribute = new HtmlAttribute("type", "\"button\"");
+        var attribute = new MarkupAttribute("type", "\"button\"");
 
         var result = attribute.ToString();
 
@@ -16,7 +16,7 @@ public class ToStringShould
     [TestMethod]
     public void ReturnNameAndValueGivenValueIsNotNull()
     {
-        var attribute = new HtmlAttribute("type", "button");
+        var attribute = new MarkupAttribute("type", "button");
 
         var result = attribute.ToString();
 
@@ -26,7 +26,7 @@ public class ToStringShould
     [TestMethod]
     public void ReturnNameGivenValueIsEmpty()
     {
-        var attribute = new HtmlAttribute("type", string.Empty);
+        var attribute = new MarkupAttribute("type", string.Empty);
 
         var result = attribute.ToString();
 
@@ -36,7 +36,7 @@ public class ToStringShould
     [TestMethod]
     public void ReturnNameGivenValueIsNull()
     {
-        var attribute = new HtmlAttribute("type");
+        var attribute = new MarkupAttribute("type");
 
         var result = attribute.ToString();
 
@@ -46,36 +46,36 @@ public class ToStringShould
     [TestMethod]
     public void ThrowArgumentExceptionGivenNameIsEmpty()
     {
-        Assert.ThrowsException<ArgumentException>(() => new HtmlAttribute(string.Empty));
+        Assert.ThrowsException<ArgumentException>(() => new MarkupAttribute(string.Empty));
     }
 
     [TestMethod]
     public void ThrowArgumentExceptionGivenNameIsWhiteSpace()
     {
-        Assert.ThrowsException<ArgumentException>(() => new HtmlAttribute(" "));
+        Assert.ThrowsException<ArgumentException>(() => new MarkupAttribute(" "));
     }
 
     [TestMethod]
     public void ThrowArgumentNullExceptionGivenNameIsNull()
     {
-        Assert.ThrowsException<ArgumentNullException>(() => new HtmlAttribute(null!));
+        Assert.ThrowsException<ArgumentNullException>(() => new MarkupAttribute(null!));
     }
 
     [TestMethod]
     public void ThrowArgumentNullExceptionGivenNameIsNullAndValueIsNotNull()
     {
-        Assert.ThrowsException<ArgumentNullException>(() => new HtmlAttribute(null!, "button"));
+        Assert.ThrowsException<ArgumentNullException>(() => new MarkupAttribute(null!, "button"));
     }
 
     [TestMethod]
     public void ThrowArgumentNullExceptionGivenNameIsNullAndValueIsNull()
     {
-        Assert.ThrowsException<ArgumentNullException>(() => new HtmlAttribute(null!, null!));
+        Assert.ThrowsException<ArgumentNullException>(() => new MarkupAttribute(null!, null!));
     }
 
     [TestMethod]
     public void ThrowArgumentNullExceptionGivenNameIsNullAndValueIsWhiteSpace()
     {
-        Assert.ThrowsException<ArgumentNullException>(() => new HtmlAttribute(null!, " "));
+        Assert.ThrowsException<ArgumentNullException>(() => new MarkupAttribute(null!, " "));
     }
 }
