@@ -10,54 +10,54 @@ public class ObjectAttributes : GlobalAttributes
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Data(string? value) => HtmlAttributes.Data(value);
+    public HtmlAttribute Data(string? value = null) => HtmlAttributes.Data(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>form</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Form(string? value) => HtmlAttributes.Form(value);
+    public HtmlAttribute Form(string? value = null) => HtmlAttributes.Form(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>height</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Height(string? value) => HtmlAttributes.Height(value);
+    public HtmlAttribute Height(string? value = null) => HtmlAttributes.Height(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>name</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Name(string? value) => HtmlAttributes.Name(value);
+    public HtmlAttribute Name(string? value = null) => HtmlAttributes.Name(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>type</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
+    public HtmlAttribute Type(string? value = null) => HtmlAttributes.Type(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>typemustmatch</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute TypeMustMatch(string? value) => HtmlAttributes.TypeMustMatch(value);
+    public HtmlAttribute TypeMustMatch(string? value = null) => HtmlAttributes.TypeMustMatch(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>usemap</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute UseMap(string? value) => HtmlAttributes.UseMap(value);
+    public HtmlAttribute UseMap(string? value = null) => HtmlAttributes.UseMap(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>width</c> attribute name and optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Width(string? value) => HtmlAttributes.Width(value);
+    public HtmlAttribute Width(string? value = null) => HtmlAttributes.Width(value);
 }

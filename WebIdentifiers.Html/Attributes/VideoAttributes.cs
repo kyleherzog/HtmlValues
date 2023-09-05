@@ -10,68 +10,68 @@ public class VideoAttributes : GlobalAttributes
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute AutoPlay(string? value) => HtmlAttributes.AutoPlay(value);
+    public HtmlAttribute AutoPlay(string? value = null) => HtmlAttributes.AutoPlay(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>controls</c> attribute name and an optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Controls(string? value) => HtmlAttributes.Controls(value);
+    public HtmlAttribute Controls(string? value = null) => HtmlAttributes.Controls(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>crossorigin</c> attribute name and an optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute CrossOrigin(string? value) => HtmlAttributes.CrossOrigin(value);
+    public HtmlAttribute CrossOrigin(string? value = null) => HtmlAttributes.CrossOrigin(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>height</c> attribute name and an optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Height(string? value) => HtmlAttributes.Height(value);
+    public HtmlAttribute Height(string? value = null) => HtmlAttributes.Height(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>loop</c> attribute name and an optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Loop(string? value) => HtmlAttributes.Loop(value);
+    public HtmlAttribute Loop(string? value = null) => HtmlAttributes.Loop(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>muted</c> attribute name and an optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Muted(string? value) => HtmlAttributes.Muted(value);
+    public HtmlAttribute Muted(string? value = null) => HtmlAttributes.Muted(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>poster</c> attribute name and an optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Poster(string? value) => HtmlAttributes.Poster(value);
+    public HtmlAttribute Poster(string? value = null) => HtmlAttributes.Poster(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>preload</c> attribute name and an optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Preload(string? value) => HtmlAttributes.Preload(value);
+    public HtmlAttribute Preload(string? value = null) => HtmlAttributes.Preload(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>src</c> attribute name and an optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Src(string? value) => HtmlAttributes.Src(value);
+    public HtmlAttribute Src(string? value = null) => HtmlAttributes.Src(value);
 
     /// <summary>
     /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>width</c> attribute name and an optionally specified value.
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Width(string? value) => HtmlAttributes.Width(value);
+    public HtmlAttribute Width(string? value = null) => HtmlAttributes.Width(value);
 }

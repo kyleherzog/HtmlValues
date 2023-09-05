@@ -11,77 +11,77 @@
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute AccessKey(string? value) => HtmlAttributes.AccessKey(value);
+        public HtmlAttribute AccessKey(string? value = null) => HtmlAttributes.AccessKey(value);
 
         /// <summary>
         /// Gets the name of the <c>autocapitalize</c> attribute. This is an enumerated attribute that controls whether and how text input is automatically capitalized as it is entered/edited by the user.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute AutoCapitalize(string? value) => HtmlAttributes.AutoCapitalize(value);
+        public HtmlAttribute AutoCapitalize(string? value = null) => HtmlAttributes.AutoCapitalize(value);
 
         /// <summary>
         /// Gets the name of the <c>autofocus</c> attribute. This is a Boolean attribute indicating that the element should be focused on page load, or when the dialog that it is part of is displayed.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute AutoFocus(string? value) => HtmlAttributes.AutoFocus(value);
+        public HtmlAttribute AutoFocus(string? value = null) => HtmlAttributes.AutoFocus(value);
 
         /// <summary>
         /// Gets the name of the <c>class</c> attribute. This is a space-separated list of the case-sensitive classes of the element.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Class(string? value) => HtmlAttributes.Class(value);
+        public HtmlAttribute Class(string? value = null) => HtmlAttributes.Class(value);
 
         /// <summary>
         /// Gets the name of the <c>contenteditable</c> attribute. This is an enumerated attribute indicating if the element should be editable by the user.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute ContentEditable(string? value) => HtmlAttributes.ContentEditable(value);
+        public HtmlAttribute ContentEditable(string? value = null) => HtmlAttributes.ContentEditable(value);
 
         /// <summary>
         /// Gets the name of the <c>dir</c> attribute. This is an enumerated attribute indicating the directionality of the element's text.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Dir(string? value) => HtmlAttributes.Dir(value);
+        public HtmlAttribute Dir(string? value = null) => HtmlAttributes.Dir(value);
 
         /// <summary>
         /// Gets the name of the <c>draggable</c> attribute. This is an enumerated attribute indicating whether the element can be dragged.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Draggable(string? value) => HtmlAttributes.Draggable(value);
+        public HtmlAttribute Draggable(string? value = null) => HtmlAttributes.Draggable(value);
 
         /// <summary>
         /// Gets the name of the <c>enterkeyhint</c> attribute. This is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute EnterKeyHint(string? value) => HtmlAttributes.EnterKeyHint(value);
+        public HtmlAttribute EnterKeyHint(string? value = null) => HtmlAttributes.EnterKeyHint(value);
 
         /// <summary>
         /// Gets the name of the <c>hidden</c> attribute. This is an enumerated attribute indicating that the browser should not render the contents of the element.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Hidden(string? value) => HtmlAttributes.Hidden(value);
+        public HtmlAttribute Hidden(string? value = null) => HtmlAttributes.Hidden(value);
 
         /// <summary>
         /// Gets the name of the <c>id</c> attribute. This defines a unique identifier (ID) which must be unique in the whole document.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Id(string? value) => HtmlAttributes.Id(value);
+        public HtmlAttribute Id(string? value = null) => HtmlAttributes.Id(value);
 
         /// <summary>
         /// Gets the name of the <c>Inert</c> attribute. This is a Boolean attribute indicating whether the browser will ignore the element.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Inert(string? value) => HtmlAttributes.Inert(value);
+        public HtmlAttribute Inert(string? value = null) => HtmlAttributes.Inert(value);
 
         /// <summary>
         /// Gets the name of the <c>inputmode</c> attribute. This is an enumerated attribute that hints at the type of data that might be entered by the user while editing the element or its contents.
@@ -89,112 +89,112 @@
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute InputMode(string? value) => HtmlAttributes.InputMode(value);
+        public HtmlAttribute InputMode(string? value = null) => HtmlAttributes.InputMode(value);
 
         /// <summary>
         /// Gets the name of the <c>is</c> attribute. This allows you to specify that a standard HTML element should behave like a registered custom built-in element.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Is(string? value) => HtmlAttributes.Is(value);
+        public HtmlAttribute Is(string? value = null) => HtmlAttributes.Is(value);
 
         /// <summary>
         /// Gets the name of the <c>itemid</c> attribute. This provides microdata in the form of a unique, global identifier for an item.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute ItemId(string? value) => HtmlAttributes.ItemId(value);
+        public HtmlAttribute ItemId(string? value = null) => HtmlAttributes.ItemId(value);
 
         /// <summary>
         /// Gets the name of the <c>itemprop</c> attribute. This is used to add properties to an item. Th value consists of a name-value pair.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute ItemProp(string? value) => HtmlAttributes.ItemProp(value);
+        public HtmlAttribute ItemProp(string? value = null) => HtmlAttributes.ItemProp(value);
 
         /// <summary>
         /// Gets the name of the <c>itemref</c> attribute. This provides a list of element IDs elsewhere in the document with additional properties for the item.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute ItemRef(string? value) => HtmlAttributes.ItemRef(value);
+        public HtmlAttribute ItemRef(string? value = null) => HtmlAttributes.ItemRef(value);
 
         /// <summary>
         /// Gets the name of the <c>itemscope</c> attribute. This is a Boolean attribute that indicates that the element and its children are part of a global microdata item.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute ItemScope(string? value) => HtmlAttributes.ItemScope(value);
+        public HtmlAttribute ItemScope(string? value = null) => HtmlAttributes.ItemScope(value);
 
         /// <summary>
         /// Gets the name of the <c>itemtype</c> attribute. This specifies the URL of the vocabulary that will be used to define itemprops in the data structure.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute ItemType(string? value) => HtmlAttributes.ItemType(value);
+        public HtmlAttribute ItemType(string? value = null) => HtmlAttributes.ItemType(value);
 
         /// <summary>
         /// Gets the name of the <c>lang</c> attribute. This helps define the language of an element: the language that non-editable elements are written in or the language that editable elements should be written in by the user.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Lang(string? value) => HtmlAttributes.Lang(value);
+        public HtmlAttribute Lang(string? value = null) => HtmlAttributes.Lang(value);
 
         /// <summary>
         /// Gets the name of the <c>Part</c> attribute. This contains a space-separated list of the part names of the element.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Part(string? value) => HtmlAttributes.Part(value);
+        public HtmlAttribute Part(string? value = null) => HtmlAttributes.Part(value);
 
         /// <summary>
         /// Gets the name of the <c>Role</c> attribute.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Role(string? value) => HtmlAttributes.Role(value);
+        public HtmlAttribute Role(string? value = null) => HtmlAttributes.Role(value);
 
         /// <summary>
         /// Gets the name of the <c>slot</c> attribute. This assigns a slot in a shadow DOM shadow tree to an element: An element with a slot attribute is assigned to the slot created by the <c>slot</c> element whose name attribute's value matches that slot attribute's value.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Slot(string? value) => HtmlAttributes.Slot(value);
+        public HtmlAttribute Slot(string? value = null) => HtmlAttributes.Slot(value);
 
         /// <summary>
         /// Gets the name of the <c>spellcheck</c> attribute. This is an enumerated attribute that specifies whether the element represents an element whose contents are subject to spell checking.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute SpellCheck(string? value) => HtmlAttributes.SpellCheck(value);
+        public HtmlAttribute SpellCheck(string? value = null) => HtmlAttributes.SpellCheck(value);
 
         /// <summary>
         /// Gets the name of the <c>style</c> attribute. This contains CSS styling declarations to be applied to the element.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Style(string? value) => HtmlAttributes.Style(value);
+        public HtmlAttribute Style(string? value = null) => HtmlAttributes.Style(value);
 
         /// <summary>
         /// Gets the name of the <c>tabindex</c> attribute. This allows developers to make elements focusable and defines the order of the element for sequential focus navigation.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute TabIndex(string? value) => HtmlAttributes.TabIndex(value);
+        public HtmlAttribute TabIndex(string? value = null) => HtmlAttributes.TabIndex(value);
 
         /// <summary>
         /// Gets the name of the <c>title</c> attribute. This contains text representing advisory information related to the element to which it belongs.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Title(string? value) => HtmlAttributes.Title(value);
+        public HtmlAttribute Title(string? value = null) => HtmlAttributes.Title(value);
 
         /// <summary>
         /// Gets the name of the <c>translate</c> attribute. This is an enumerated attribute that specifies whether an element's attribute values and the values of its Text node children are to be translated when the page is localized, or whether to leave them unchanged.
         /// </summary>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-        public HtmlAttribute Translate(string? value) => HtmlAttributes.Translate(value);
+        public HtmlAttribute Translate(string? value = null) => HtmlAttributes.Translate(value);
 
         /// <summary>
         /// Gets the name of the specified <c>data-</c> prefixed attribute. This is a data attribute that adds custom data to an element.

@@ -10,5 +10,5 @@ public class ColGroupAttributes : GlobalAttributes
     /// </summary>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
-    public HtmlAttribute Span(string? value) => HtmlAttributes.Span(value);
+    public HtmlAttribute Span(string? value = null) => HtmlAttributes.Span(value);
 }
