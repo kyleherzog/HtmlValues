@@ -275,6 +275,11 @@ public static class HtmlAttributeValues
     public const string External = "external";
 
     /// <summary>
+    /// Gets the predefined <c>false</c> attribute value.
+    /// </summary>
+    public const string False = "false";
+
+    /// <summary>
     /// Gets the predefined <c>feed</c> attribute value.
     /// </summary>
     public const string Feed = "feed";
@@ -828,6 +833,11 @@ public static class HtmlAttributeValues
     /// Gets the predefined <c>treeitem</c> attribute value.
     /// </summary>
     public const string TreeItem = "treeitem";
+
+    /// <summary>
+    /// Gets the predefined <c>true</c> attribute value.
+    /// </summary>
+    public const string True = "true";
 
     /// <summary>
     /// Gets the predefined <c>url</c> attribute value.

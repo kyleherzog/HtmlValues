@@ -17,7 +17,7 @@ Console.WriteLine(tag); // output: <div>
 ```
 
 ### HtmlAttributes
-The `HtmlAttributes' static class provides access to individual HtmlAttribute objects.
+The `HtmlAttributes` static class provides access to individual `MarkupAttribute` objects.
 
 ```csharp
 var idAttribute = $"{HtmlAttributes.Id()}='1234'";
@@ -30,10 +30,9 @@ Optionally a value can be provided to the attribute. The value will be escaped a
 var idAttribute = HtmlAttributes.Id("1234")";
 Console.WriteLine(idAttribute); // output: id="1234"
 ```
-```
 
 Attributes that are known to be valid for various HTML tags also made available 
-though static read only "For" members.
+though static read only "For" prefixed members.
 
 ```csharp
 var attribute = HtmlAttributes.ForImg.Alt("dog")";

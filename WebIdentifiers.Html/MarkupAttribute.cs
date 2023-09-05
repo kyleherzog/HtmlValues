@@ -5,14 +5,14 @@ namespace WebIdentifiers.Html;
 /// <summary>
 /// Represents an HTML attribute.
 /// </summary>
-public struct HtmlAttribute
+public struct MarkupAttribute
 {
     /// <summary>
-    /// Initializes a new instance of the <see cref="HtmlAttribute"/> struct.
+    /// Initializes a new instance of the <see cref="MarkupAttribute"/> struct.
     /// </summary>
     /// <param name="name">The name of the attribute.</param>
     /// <param name="value">An optional value to apply to the attribute.</param>
-    public HtmlAttribute(string name, string? value = null)
+    public MarkupAttribute(string name, string? value = null)
     {
         if (name is null)
         {
@@ -38,9 +38,9 @@ public struct HtmlAttribute
     /// </summary>
     public string? Value { get; }
 
-    public static implicit operator string(HtmlAttribute attribute) => attribute.ToString();
+    public static implicit operator string(MarkupAttribute attribute) => attribute.ToString();
 
-    public static bool operator ==(HtmlAttribute? left, HtmlAttribute? right)
+    public static bool operator ==(MarkupAttribute? left, MarkupAttribute? right)
     {
         if (left is null && right is null)
         {
@@ -50,7 +50,7 @@ public struct HtmlAttribute
         return left?.Equals(right) ?? false;
     }
 
-    public static bool operator !=(HtmlAttribute? left, HtmlAttribute? right)
+    public static bool operator !=(MarkupAttribute? left, MarkupAttribute? right)
     {
         return !(left == right);
     }
@@ -85,7 +85,7 @@ public struct HtmlAttribute
             return ToString().Equals(otherString);
         }
 
-        if (obj is HtmlAttribute otherAttribute)
+        if (obj is MarkupAttribute otherAttribute)
         {
             return Name == otherAttribute.Name
                 && Value == otherAttribute.Value;
