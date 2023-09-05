@@ -8,7 +8,7 @@ namespace WebIdentifiers.Html;
 public struct HtmlAttribute
 {
     /// <summary>
-    /// Initializes a new instance of the <see cref="HtmlAttribute"/> class.
+    /// Initializes a new instance of the <see cref="HtmlAttribute"/> struct.
     /// </summary>
     /// <param name="name">The name of the attribute.</param>
     /// <param name="value">An optional value to apply to the attribute.</param>
@@ -39,6 +39,21 @@ public struct HtmlAttribute
     public string? Value { get; }
 
     public static implicit operator string(HtmlAttribute attribute) => attribute.ToString();
+
+    public static bool operator ==(HtmlAttribute? left, HtmlAttribute? right)
+    {
+        if (left is null && right is null)
+        {
+            return true;
+        }
+
+        return left?.Equals(right) ?? false;
+    }
+
+    public static bool operator !=(HtmlAttribute? left, HtmlAttribute? right)
+    {
+        return !(left == right);
+    }
 
     /// <inheritdoc/>
     public override string ToString()
