@@ -202,6 +202,6 @@
         /// <param name="name">The data attribute name that is to be prefixed with <c>data-</c>.</param>
         /// <param name="value">An optional value to apply to the attribute.</param>
         /// <returns>The new <see cref="MarkupAttribute"/> instance.</returns>
-        public MarkupAttribute DataDash(string name, string? value) => HtmlAttributes.DataDash(name, value);
+        public MarkupAttribute DataDash(string name, string? value = null) => HtmlAttributes.DataDash(name, value);
     }
 }

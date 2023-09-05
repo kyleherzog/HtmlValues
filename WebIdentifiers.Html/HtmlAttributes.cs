@@ -847,7 +847,7 @@ public static class HtmlAttributes
     /// <param name="name">The name of the attribute which is to be prefixed with <c>data-</c>.</param>
     /// <param name="value">An optional value to apply to the attribute.</param>
     /// <returns>The new <see cref="MarkupAttribute"/> instance.</returns>
-    public static MarkupAttribute DataDash(string name, string? value) => new($"data-{name}", value);
+    public static MarkupAttribute DataDash(string name, string? value = null) => new($"data-{name}", value);
 
     /// <summary>
     /// Creates a new <see cref="MarkupAttribute"/> initialized with the <c>datetime</c> attribute name.
