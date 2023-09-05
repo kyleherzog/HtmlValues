@@ -6,12 +6,16 @@
 public class TimeAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the datetime attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>datetime</c> attribute name and an optionally specified value.
     /// </summary>
-    public string DateTime => HtmlAttributes.DateTime;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute DateTime(string? value) => HtmlAttributes.DateTime(value);
 
     /// <summary>
-    /// Gets the name of the pubdate attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>pubdate</c> attribute name and an optionally specified value.
     /// </summary>
-    public string PubDate => HtmlAttributes.PubDate;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute PubDate(string? value) => HtmlAttributes.PubDate(value);
 }

@@ -5,13 +5,17 @@
 /// </summary>
 public class OptGroupAttributes : GlobalAttributes
 {
-    ///  <summary>
-    /// Gets the name of the disabled attribute.
+    /// <summary>
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>disabled</c> attribute name and optionally specified value.
     /// </summary>
-    public string Disabled => HtmlAttributes.Disabled;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Disabled(string? value) => HtmlAttributes.Disabled(value);
 
     /// <summary>
-    /// Gets the name of the label attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>label</c> attribute name and optionally specified value.
     /// </summary>
-    public string Label => HtmlAttributes.Label;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Label(string? value) => HtmlAttributes.Label(value);
 }

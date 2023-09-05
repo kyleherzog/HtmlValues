@@ -6,12 +6,16 @@
 public class MenuAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the label attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>label</c> attribute name and optionally specified value.
     /// </summary>
-    public string Label => HtmlAttributes.Label;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Label(string? value) => HtmlAttributes.Label(value);
 
     /// <summary>
-    /// Gets the name of the type attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>type</c> attribute name and optionally specified value.
     /// </summary>
-    public string Type => HtmlAttributes.Type;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
 }

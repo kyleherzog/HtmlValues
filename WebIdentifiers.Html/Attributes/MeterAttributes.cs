@@ -6,37 +6,51 @@
 public class MeterAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the form attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>form</c> attribute name and optionally specified value.
     /// </summary>
-    public string Form => HtmlAttributes.Form;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Form(string? value) => HtmlAttributes.Form(value);
 
     /// <summary>
-    /// Gets the name of the high attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>high</c> attribute name and optionally specified value.
     /// </summary>
-    public string High => HtmlAttributes.High;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute High(string? value) => HtmlAttributes.High(value);
 
     /// <summary>
-    /// Gets the name of the low attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>low</c> attribute name and optionally specified value.
     /// </summary>
-    public string Low => HtmlAttributes.Low;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Low(string? value) => HtmlAttributes.Low(value);
 
     /// <summary>
-    /// Gets the name of the max attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>max</c> attribute name and optionally specified value.
     /// </summary>
-    public string Max => HtmlAttributes.Max;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Max(string? value) => HtmlAttributes.Max(value);
 
     /// <summary>
-    /// Gets the name of the min attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>min</c> attribute name and optionally specified value.
     /// </summary>
-    public string Min => HtmlAttributes.Min;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Min(string? value) => HtmlAttributes.Min(value);
 
     /// <summary>
-    /// Gets the name of the optimum attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>optimum</c> attribute name and optionally specified value.
     /// </summary>
-    public string Optimum => HtmlAttributes.Optimum;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Optimum(string? value) => HtmlAttributes.Optimum(value);
 
     /// <summary>
-    /// Gets the name of the value attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>value</c> attribute name and optionally specified value.
     /// </summary>
-    public string Value => HtmlAttributes.Value;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Value(string? value) => HtmlAttributes.Value(value);
 }

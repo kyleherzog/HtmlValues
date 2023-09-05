@@ -6,7 +6,9 @@
 public class MapAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the name attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>name</c> attribute name and optionally specified value.
     /// </summary>
-    public string Name => HtmlAttributes.Name;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Name(string? value) => HtmlAttributes.Name(value);
 }

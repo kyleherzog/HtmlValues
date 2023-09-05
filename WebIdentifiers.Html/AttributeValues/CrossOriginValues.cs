@@ -3,7 +3,6 @@
 /// <summary>
 /// Provides access to predefined values of <c>crossorigin</c> attribute.
 /// </summary>
-
 public class CrossOriginValues
 {
     /// <summary>

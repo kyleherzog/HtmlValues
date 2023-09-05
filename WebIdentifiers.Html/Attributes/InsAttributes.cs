@@ -6,12 +6,16 @@
 public class InsAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the cite attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>cite</c> attribute name and optionally specified value.
     /// </summary>
-    public string Cite => HtmlAttributes.Cite;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Cite(string? value) => HtmlAttributes.Cite(value);
 
     /// <summary>
-    /// Gets the name of the datetime attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>datetime</c> attribute name and optionally specified value.
     /// </summary>
-    public string DateTime => HtmlAttributes.DateTime;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute DateTime(string? value) => HtmlAttributes.DateTime(value);
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WebIdentifiers.Html.Attributes;
+﻿namespace WebIdentifiers.Html.Attributes;
 
 /// <summary>
 /// Provides access to the attributes of the form element.
@@ -10,47 +6,65 @@ namespace WebIdentifiers.Html.Attributes;
 public class FormAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the accept-charset attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>accept-charset</c> and an optional specified value.
     /// </summary>
-    public string AcceptCharset => HtmlAttributes.AcceptCharset;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute AcceptCharset(string? value) => HtmlAttributes.AcceptCharset(value);
 
     /// <summary>
-    /// Gets the name of the action attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>action</c> and an optional specified value.
     /// </summary>
-    public string Action => HtmlAttributes.Action;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Action(string? value) => HtmlAttributes.Action(value);
 
     /// <summary>
-    /// Gets the name of the autocomplete attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>autocomplete</c> and an optional specified value.
     /// </summary>
-    public string AutoComplete => HtmlAttributes.AutoComplete;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute AutoComplete(string? value) => HtmlAttributes.AutoComplete(value);
 
     /// <summary>
-    /// Gets the name of the enctype attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>enctype</c> and an optional specified value.
     /// </summary>
-    public string EncType => HtmlAttributes.EncType;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute EncType(string? value) => HtmlAttributes.EncType(value);
 
     /// <summary>
-    /// Gets the name of the method attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>method</c> and an optional specified value.
     /// </summary>
-    public string Method => HtmlAttributes.Method;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Method(string? value) => HtmlAttributes.Method(value);
 
     /// <summary>
-    /// Gets the name of the name attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>name</c> and an optional specified value.
     /// </summary>
-    public string Name => HtmlAttributes.Name;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Name(string? value) => HtmlAttributes.Name(value);
 
     /// <summary>
-    /// Gets the name of the novalidate attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>novalidate</c> and an optional specified value.
     /// </summary>
-    public string NoValidate => HtmlAttributes.NoValidate;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute NoValidate(string? value) => HtmlAttributes.NoValidate(value);
 
     /// <summary>
-    /// Gets the name of the rel attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>rel</c> and an optional specified value.
     /// </summary>
-    public string Rel => HtmlAttributes.Rel;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Rel(string? value) => HtmlAttributes.Rel(value);
 
     /// <summary>
-    /// Gets the name of the target attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>target</c> and an optional specified value.
     /// </summary>
-    public string Target => HtmlAttributes.Target;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Target(string? value) => HtmlAttributes.Target(value);
 }

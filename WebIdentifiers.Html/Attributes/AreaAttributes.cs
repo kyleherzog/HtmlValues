@@ -6,52 +6,72 @@
 public class AreaAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the alt attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>alt</c> attribute name and optionally specified value.
     /// </summary>
-    public string Alt => HtmlAttributes.Alt;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Alt(string? value) => HtmlAttributes.Alt(value);
 
     /// <summary>
-    /// Gets the name of the coords attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>coords</c> attribute name and optionally specified value.
     /// </summary>
-    public string Coords => HtmlAttributes.Coords;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Coords(string? value) => HtmlAttributes.Coords(value);
 
     /// <summary>
-    /// Gets the name of the download attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>download</c> attribute name and optionally specified value.
     /// </summary>
-    public string Download => HtmlAttributes.Download;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Download(string? value) => HtmlAttributes.Download(value);
 
     /// <summary>
-    /// Gets the name of the href attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>href</c> attribute name and optionally specified value.
     /// </summary>
-    public string Href => HtmlAttributes.Href;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Href(string? value) => HtmlAttributes.Href(value);
 
     /// <summary>
-    /// Gets the name of the hreflang attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>hrefland</c> attribute name and optionally specified value.
     /// </summary>
-    public string HrefLang => HtmlAttributes.HrefLang;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute HrefLang(string? value) => HtmlAttributes.HrefLang(value);
 
     /// <summary>
-    /// Gets the name of the media attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>media</c> attribute name and optionally specified value.
     /// </summary>
-    public string Media => HtmlAttributes.Media;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Media(string? value) => HtmlAttributes.Media(value);
 
     /// <summary>
-    /// Gets the name of the rel attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>rel</c> attribute name and optionally specified value.
     /// </summary>
-    public string Rel => HtmlAttributes.Rel;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Rel(string? value) => HtmlAttributes.Rel(value);
 
     /// <summary>
-    /// Gets the name of the shape attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>shape</c> attribute name and optionally specified value.
     /// </summary>
-    public string Shape => HtmlAttributes.Shape;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Shape(string? value) => HtmlAttributes.Shape(value);
 
     /// <summary>
-    /// Gets the name of the target attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>target</c> attribute name and optionally specified value.
     /// </summary>
-    public string Target => HtmlAttributes.Target;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Target(string? value) => HtmlAttributes.Target(value);
 
     /// <summary>
-    /// Gets the name of the type attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>type</c> attribute name and optionally specified value.
     /// </summary>
-    public string Type => HtmlAttributes.Type;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
 }

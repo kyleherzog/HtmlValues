@@ -6,27 +6,37 @@
 public class ThAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the abbr attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>abbr</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Abbr => HtmlAttributes.Abbr;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Abbr(string? value) => HtmlAttributes.Abbr(value);
 
     /// <summary>
-    /// Gets the name of the colspan attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>colspan</c> attribute name and an optionally specified value.
     /// </summary>
-    public string ColSpan => HtmlAttributes.ColSpan;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute ColSpan(string? value) => HtmlAttributes.ColSpan(value);
 
     /// <summary>
-    /// Gets the name of the headers attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>headers</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Headers => HtmlAttributes.Headers;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Headers(string? value) => HtmlAttributes.Headers(value);
 
     /// <summary>
-    /// Gets the name of the rowspan attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>rowspan</c> attribute name and an optionally specified value.
     /// </summary>
-    public string RowSpan => HtmlAttributes.RowSpan;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute RowSpan(string? value) => HtmlAttributes.RowSpan(value);
 
     /// <summary>
-    /// Gets the name of the scope attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>scope</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Scope => HtmlAttributes.Scope;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Scope(string? value) => HtmlAttributes.Scope(value);
 }

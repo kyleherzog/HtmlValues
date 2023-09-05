@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WebIdentifiers.Html.AttributeValues;
+﻿namespace WebIdentifiers.Html.AttributeValues;
 
 /// <summary>
 /// Provides access to predefined values of the <c>dir</c> attribute.
@@ -23,5 +19,4 @@ public class DirValues
     /// Gets the predefined <c>rtl</c> attribute value which indicates right-to-left text direction.
     /// </summary>
     public string Rtl => HtmlAttributeValues.Rtl;
-
 }

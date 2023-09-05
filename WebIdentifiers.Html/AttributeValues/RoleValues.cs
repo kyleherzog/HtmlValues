@@ -406,7 +406,7 @@ public class RoleValues
     public string Superscript => HtmlAttributeValues.Superscript;
 
     /// <summary>
-    /// Gets the predefined <c>switch</c> attribute value. This role is used to identify a type of checkbox that represents on/off values,
+    /// Gets the predefined <c>switch</c> attribute value. This role is used to identify a type of checkbox that represents on/off values.
     /// </summary>
     public string Switch => HtmlAttributeValues.Switch;
 

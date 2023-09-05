@@ -6,7 +6,9 @@
 public class DetailsAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the open attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>open</c> and an optional specified value.
     /// </summary>
-    public string Open => HtmlAttributes.Open;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Open(string? value) => HtmlAttributes.Open(value);
 }

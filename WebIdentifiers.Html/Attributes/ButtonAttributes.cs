@@ -6,52 +6,72 @@
 public class ButtonAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the disabled attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the disabled attribute name and optionally specified value.
     /// </summary>
-    public string Disabled => HtmlAttributes.Disabled;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Disabled(string? value) => HtmlAttributes.Disabled(value);
 
     /// <summary>
-    /// Gets the name of the form attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the form attribute name and optionally specified value.
     /// </summary>
-    public string Form => HtmlAttributes.Form;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Form(string? value) => HtmlAttributes.Form(value);
 
     /// <summary>
-    /// Gets the name of the formaction attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the formaction attribute name and optionally specified value.
     /// </summary>
-    public string FormAction => HtmlAttributes.FormAction;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute FormAction(string? value) => HtmlAttributes.FormAction(value);
 
     /// <summary>
-    /// Gets the name of the formenctype attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the formenctype attribute name and optionally specified value.
     /// </summary>
-    public string FormEncType => HtmlAttributes.FormEncType;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute FormEncType(string? value) => HtmlAttributes.FormEncType(value);
 
     /// <summary>
-    /// Gets the name of the formmethod attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the formmethod attribute name and optionally specified value.
     /// </summary>
-    public string FormMethod => HtmlAttributes.FormMethod;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute FormMethod(string? value) => HtmlAttributes.FormMethod(value);
 
     /// <summary>
-    /// Gets the name of the formnovalidate attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the formnovalidate attribute name and optionally specified value.
     /// </summary>
-    public string FormNoValidate => HtmlAttributes.FormNoValidate;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute FormNoValidate(string? value) => HtmlAttributes.FormNoValidate(value);
 
     /// <summary>
-    /// Gets the name of the formtarget attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>formtarget</c> attribute name and optionally specified value.
     /// </summary>
-    public string FormTarget => HtmlAttributes.FormTarget;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute FormTarget(string? value) => HtmlAttributes.FormTarget(value);
 
     /// <summary>
-    /// Gets the name of the name attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>name</c> attribute name and optionally specified value.
     /// </summary>
-    public string Name => HtmlAttributes.Name;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Name(string? value) => HtmlAttributes.Name(value);
 
     /// <summary>
-    /// Gets the name of the type attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>type</c> attribute name and optionally specified value.
     /// </summary>
-    public string Type => HtmlAttributes.Type;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
 
     /// <summary>
-    /// Gets the name of the value attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>value</c> attribute name and optionally specified value.
     /// </summary>
-    public string Value => HtmlAttributes.Value;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Value(string? value) => HtmlAttributes.Value(value);
 }

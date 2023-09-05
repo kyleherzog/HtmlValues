@@ -8,15 +8,21 @@ public class OlAttributes
     /// <summary>
     /// Gets the name of the reversed attribute.
     /// </summary>
-    public string Reversed => HtmlAttributes.Reversed;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Reversed(string? value) => HtmlAttributes.Reversed(value);
 
     /// <summary>
     /// Gets the name of the start attribute.
     /// </summary>
-    public string Start => HtmlAttributes.Start;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Start(string? value) => HtmlAttributes.Start(value);
 
     /// <summary>
     /// Gets the name of the type attribute.
     /// </summary>
-    public string Type => HtmlAttributes.Type;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
 }

@@ -6,17 +6,23 @@
 public class StyleAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the media attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>media</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Media => HtmlAttributes.Media;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Media(string? value) => HtmlAttributes.Media(value);
 
     /// <summary>
-    /// Gets the name of the nonce attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>nonce</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Nonce => HtmlAttributes.Nonce;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Nonce(string? value) => HtmlAttributes.Nonce(value);
 
     /// <summary>
-    /// Gets the name of the type attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>type</c> attribute name and an optionally specified value.
     /// </summary>
-    public string Type => HtmlAttributes.Type;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
 }

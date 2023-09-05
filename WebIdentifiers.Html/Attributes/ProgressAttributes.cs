@@ -6,12 +6,16 @@
 public class ProgressAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the max attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>max</c> attribute name and optionally specified value.
     /// </summary>
-    public string Max => HtmlAttributes.Max;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Max(string? value) => HtmlAttributes.Max(value);
 
     /// <summary>
-    /// Gets the name of the value attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>value</c> attribute name and optionally specified value.
     /// </summary>
-    public string Value => HtmlAttributes.Value;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Value(string? value) => HtmlAttributes.Value(value);
 }

@@ -6,7 +6,9 @@
 public class DataAttributes
 {
     /// <summary>
-    /// Gets the name of the <c>value</c> attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>value</c> and an optional specified value.
     /// </summary>
-    public string Value => HtmlAttributes.Value;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Value(string? value) => HtmlAttributes.Value(value);
 }

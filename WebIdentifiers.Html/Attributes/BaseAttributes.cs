@@ -6,12 +6,16 @@
 public class BaseAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the href attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the href attribute name and optionally specified value.
     /// </summary>
-    public string Href => HtmlAttributes.Href;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Href(string? value) => HtmlAttributes.Href(value);
 
     /// <summary>
-    /// Gets the name of the target attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the target attribute name and optionally specified value.
     /// </summary>
-    public string Target => HtmlAttributes.Target;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Target(string? value) => HtmlAttributes.Target(value);
 }

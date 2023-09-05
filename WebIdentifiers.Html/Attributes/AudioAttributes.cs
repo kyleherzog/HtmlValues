@@ -6,37 +6,51 @@
 public class AudioAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the autoplay attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the autoplay attribute name and optionally specified value.
     /// </summary>
-    public string AutoPlay => HtmlAttributes.AutoPlay;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute AutoPlay(string? value) => HtmlAttributes.AutoPlay(value);
 
     /// <summary>
-    /// Gets the name of the controls attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the controls attribute name and optionally specified value.
     /// </summary>
-    public string Controls => HtmlAttributes.Controls;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Controls(string? value) => HtmlAttributes.Controls(value);
 
     /// <summary>
-    /// Gets the name of the crossorigin attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the crossorigin attribute name and optionally specified value.
     /// </summary>
-    public string CrossOrigin => HtmlAttributes.CrossOrigin;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute CrossOrigin(string? value) => HtmlAttributes.CrossOrigin(value);
 
     /// <summary>
-    /// Gets the name of the loop attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the loop attribute name and optionally specified value.
     /// </summary>
-    public string Loop => HtmlAttributes.Loop;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Loop(string? value) => HtmlAttributes.Loop(value);
 
     /// <summary>
-    /// Gets the name of the muted attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the muted attribute name and optionally specified value.
     /// </summary>
-    public string Muted => HtmlAttributes.Muted;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Muted(string? value) => HtmlAttributes.Muted(value);
 
     /// <summary>
-    /// Gets the name of the preload attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the preload attribute name and optionally specified value.
     /// </summary>
-    public string Preload => HtmlAttributes.Preload;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Preload(string? value) => HtmlAttributes.Preload(value);
 
     /// <summary>
-    /// Gets the name of the src attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the src attribute name and optionally specified value.
     /// </summary>
-    public string Src => HtmlAttributes.Src;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Src(string? value) => HtmlAttributes.Src(value);
 }

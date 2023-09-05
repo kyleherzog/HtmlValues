@@ -6,17 +6,23 @@
 public class FieldSetAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the disabled attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>disabled</c> and an optional specified value.
     /// </summary>
-    public string Disabled => HtmlAttributes.Disabled;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Disabled(string? value) => HtmlAttributes.Disabled(value);
 
     /// <summary>
-    /// Gets the name of the form attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>form</c> and an optional specified value.
     /// </summary>
-    public string Form => HtmlAttributes.Form;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Form(string? value) => HtmlAttributes.Form(value);
 
     /// <summary>
-    /// Gets the name of the name attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the attribute name <c>name</c> and an optional specified value.
     /// </summary>
-    public string Name => HtmlAttributes.Name;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Name(string? value) => HtmlAttributes.Name(value);
 }

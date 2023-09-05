@@ -7,6 +7,7 @@ namespace WebIdentifiers.Html;
 /// </summary>
 public static class HtmlAttributeValues
 {
+#pragma warning disable SA1309 // Field names should not begin with underscore Justification: We want the member names to match the HTML attribute values.
     /// <summary>
     /// Gets the predefined <c>_blank</c> attribute value.
     /// </summary>
@@ -26,6 +27,7 @@ public static class HtmlAttributeValues
     /// Gets the predefined <c>_top</c> attribute value.
     /// </summary>
     public const string _Top = "_top";
+#pragma warning restore SA1309 // Field names should not begin with underscore
 
     /// <summary>
     /// Gets the predefined <c>alert</c> attribute value.

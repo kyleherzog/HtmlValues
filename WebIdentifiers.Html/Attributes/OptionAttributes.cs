@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WebIdentifiers.Html.Attributes;
+﻿namespace WebIdentifiers.Html.Attributes;
 
 /// /// <summary>
 /// Provides access to the attributes of the option element.
@@ -10,22 +6,30 @@ namespace WebIdentifiers.Html.Attributes;
 public class OptionAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the disabled attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the "disabled" attribute name and optionally specified value.
     /// </summary>
-    public string Disabled => HtmlAttributes.Disabled;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Disabled(string? value) => HtmlAttributes.Disabled(value);
 
     /// <summary>
-    /// Gets the name of the label attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the "label" attribute name and optionally specified value.
     /// </summary>
-    public string Label => HtmlAttributes.Label;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Label(string? value) => HtmlAttributes.Label(value);
 
     /// <summary>
-    /// Gets the name of the selected attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the "selected" attribute name and optionally specified value.
     /// </summary>
-    public string Selected => HtmlAttributes.Selected;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Selected(string? value) => HtmlAttributes.Selected(value);
 
     /// <summary>
-    /// Gets the name of the value attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the "value" attribute name and optionally specified value.
     /// </summary>
-    public string Value => HtmlAttributes.Value;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Value(string? value) => HtmlAttributes.Value(value);
 }

@@ -6,37 +6,51 @@
 public class SelectAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the autocomplete attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>autocomplete</c> attribute name and optionally specified value.
     /// </summary>
-    public string AutoComplete => HtmlAttributes.AutoComplete;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute AutoComplete(string? value) => HtmlAttributes.AutoComplete(value);
 
     /// <summary>
-    /// Gets the name of the disabled attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>disabled</c> attribute name and optionally specified value.
     /// </summary>
-    public string Disabled => HtmlAttributes.Disabled;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Disabled(string? value) => HtmlAttributes.Disabled(value);
 
     /// <summary>
-    /// Gets the name of the form attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>form</c> attribute name and optionally specified value.
     /// </summary>
-    public string Form => HtmlAttributes.Form;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Form(string? value) => HtmlAttributes.Form(value);
 
     /// <summary>
-    /// Gets the name of the multiple attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>multiple</c> attribute name and optionally specified value.
     /// </summary>
-    public string Multiple => HtmlAttributes.Multiple;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Multiple(string? value) => HtmlAttributes.Multiple(value);
 
     /// <summary>
-    /// Gets the name of the name attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>name</c> attribute name and optionally specified value.
     /// </summary>
-    public string Name => HtmlAttributes.Name;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Name(string? value) => HtmlAttributes.Name(value);
 
     /// <summary>
-    /// Gets the name of the required attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>required</c> attribute name and optionally specified value.
     /// </summary>
-    public string Required => HtmlAttributes.Required;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Required(string? value) => HtmlAttributes.Required(value);
 
     /// <summary>
-    /// Gets the name of the size attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>size</c> attribute name and optionally specified value.
     /// </summary>
-    public string Size => HtmlAttributes.Size;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Size(string? value) => HtmlAttributes.Size(value);
 }

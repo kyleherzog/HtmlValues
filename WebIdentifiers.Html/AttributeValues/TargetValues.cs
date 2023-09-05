@@ -5,6 +5,7 @@
 /// </summary>
 public class TargetValues
 {
+#pragma warning disable SA1309 // Field names should not begin with underscore Justification: We want the member names to match the HTML attribute values.
     /// <summary>
     /// Gets the predefined <c>_blank</c> attribute value.
     /// </summary>
@@ -18,10 +19,11 @@ public class TargetValues
     /// <summary>
     /// Gets the predefined <c>_self</c> attribute value.
     /// </summary>
-    public string S_elf => HtmlAttributeValues._Self;
+    public string _Self => HtmlAttributeValues._Self;
 
     /// <summary>
     /// Gets the predefined <c>_top</c> attribute value.
     /// </summary>
     public string _Top => HtmlAttributeValues._Top;
+#pragma warning restore SA1309 // Field names should not begin with underscore
 }

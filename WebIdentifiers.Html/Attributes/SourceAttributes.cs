@@ -6,27 +6,37 @@
 public class SourceAttributes : GlobalAttributes
 {
     /// <summary>
-    /// Gets the name of the media attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>media</c> attribute name and optionally specified value.
     /// </summary>
-    public string Media => HtmlAttributes.Media;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Media(string? value) => HtmlAttributes.Media(value);
 
     /// <summary>
-    /// Gets the name of the sizes attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>sizes</c> attribute name and optionally specified value.
     /// </summary>
-    public string Sizes => HtmlAttributes.Sizes;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Sizes(string? value) => HtmlAttributes.Sizes(value);
 
     /// <summary>
-    /// Gets the name of the src attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>src</c> attribute name and optionally specified value.
     /// </summary>
-    public string Src => HtmlAttributes.Src;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Src(string? value) => HtmlAttributes.Src(value);
 
     /// <summary>
-    /// Gets the name of the srcset attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>srcset</c> attribute name and optionally specified value.
     /// </summary>
-    public string SrcSet => HtmlAttributes.SrcSet;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute SrcSet(string? value) => HtmlAttributes.SrcSet(value);
 
     /// <summary>
-    /// Gets the name of the type attribute.
+    /// Creates a new <see cref="HtmlAttribute"/> initialized with the <c>type</c> attribute name and optionally specified value.
     /// </summary>
-    public string Type => HtmlAttributes.Type;
+    /// <param name="value">An optional value to apply to the attribute.</param>
+    /// <returns>The new <see cref="HtmlAttribute"/> instance.</returns>
+    public HtmlAttribute Type(string? value) => HtmlAttributes.Type(value);
 }
